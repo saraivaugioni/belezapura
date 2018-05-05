@@ -1,0 +1,126 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Pedidex</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  Dashboard <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="shopping-cart"></span>
+                  Produtos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="users"></span>
+                  Clientes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="bar-chart-2"></span>
+                  Pedidos
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Relatórios</span>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Curva ABC de Clientes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Curva ABC de Produtos
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main ng-controller="ClienteFormController as vm" role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+            <h1 class="h2">Novo Cliente</h1>
+          </div>
+
+          <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input ng-model="vm.registro.nome" type="text" class="form-control" id="nome" placeholder="Digite o nome">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="telefone">Telefone</label>
+                  <input ng-model="vm.registro.telefone" type="text" class="form-control" id="telefone">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input ng-model="vm.registro.email" type="text" class="form-control" id="email">
+                </div>
+              </div>
+              <div class="form-row justify-content-end">
+                <button ng-click="vm.salvar()" type="button" class="btn btn-primary mr-2">Salvar</button>
+                <a href="index.html" class="btn btn-danger">Cancelar</a>
+              </div>
+            </form>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/angular.js"></script>
+    <script src="assets/js/vendor/angular-locale_pt-br.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- Scripts da Aplicação -->
+    <script src="assets/js/app/module.js"></script>
+    <script src="assets/js/app/cliente.form.controller.js"></script>
+    <script src="assets/js/app/cliente.service.js"></script>
+    <!-- /Aplicação -->
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
