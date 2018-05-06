@@ -1,0 +1,41 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Listagem de Equipamentos</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <a ui-sref="Novo Equipamento" class="btn btn-success">
+            <span data-feather="plus-circle"></span>
+            Novo
+        </a>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Descrição</th>
+                <th>Especificação</th>
+                <th>Preço</th>
+                <th>Data de aquisição</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in vm.registros">
+                <td>{{item.id}}</td>
+                <td>{{item.descricao}}</td>
+                <td>{{item.especificacao}}</td>
+                <td>{{item.preco}}</td>
+                <td>{{item.dataAquisicao}}</td>
+                <td class="text-right">
+                    <button class="btn btn-sm btn-link">
+                        <span class="text-info" data-feather="edit"></span>
+                    </button>
+                    <button ng-click="vm.remove(item.id)" class="btn btn-sm btn-link">
+                        <span class="text-danger" data-feather="trash-2"></span>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

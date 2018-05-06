@@ -1,0 +1,28 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Novo Equipamento</h1>
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite o nome">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="especificacao">Especificação</label>
+            <input ng-model="vm.registro.especificacao" type="text" class="form-control" id="especificacao">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="preco">Preço</label>
+            <input ng-model="vm.registro.preco" type="text" class="form-control" id="preco">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="dataAquisicao">Data de aquisição</label>
+            <input ng-model="vm.registro.dataAquisicao" type="text" class="form-control" id="dataAquisicao">
+        </div>
+    </div>
+    <div class="form-row justify-content-end">
+        <button ng-click="vm.salvar()" type="button" class="btn btn-primary mr-2">Salvar</button>
+        <a ui-sref="Equipamentos" class="btn btn-danger">Cancelar</a>
+    </div>
+</form>
