@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-    <h1 class="h2">Listagem de Clientes</h1>
+    <h1 class="h2">Listagem de Protocolos</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
-        <a ui-sref="Novo Cliente" class="btn btn-success">
+        <a ui-sref="Novo Protocolo" class="btn btn-success">
             <span data-feather="plus-circle"></span>
             Novo
         </a>
@@ -13,18 +13,16 @@
         <thead>
             <tr>
                 <th>#</th>
-                <th>Nome</th>
-                <th>Telefone</th>
-                <th>Email</th>
+                <th>Descrição</th>
+                <th>Especificação</th>
                 <th></th>
             </tr>
         </thead>
         <tbody>
             <tr ng-repeat="item in vm.registros">
                 <td>{{item.id}}</td>
-                <td>{{item.nome}}</td>
-                <td>{{item.telefone}}</td>
-                <td>{{item.email}}</td>
+                <td>{{item.descricao}}</td>
+                <td>{{item.especificacao}}</td>
                 <td class="text-right">
                     <button class="btn btn-sm btn-link">
                         <span class="text-info" data-feather="edit"></span>
