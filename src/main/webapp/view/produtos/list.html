@@ -2,7 +2,7 @@
     <h1 class="h2">Listagem de Produtos</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
         <a ui-sref="Novo Produto" class="btn btn-success">
-            <span data-feather="plus-circle"></span>
+            <i class="fas fa-plus-circle"></i>
             Novo
         </a>
     </div>
@@ -17,7 +17,7 @@
                 <th>Descrição</th>
                 <th>Preço</th>
                 <th>Quantidade</th>
-                <th></th>
+                <th class="text-right">Opções</th>
             </tr>
         </thead>
         <tbody>
@@ -29,10 +29,10 @@
                 <td>{{item.quantidade}}</td>
                 <td class="text-right">
                     <button class="btn btn-sm btn-link">
-                        <span class="text-info" data-feather="edit"></span>
+                        <i class="far fa-edit"></i>
                     </button>
                     <button ng-click="vm.remove(item.id)" class="btn btn-sm btn-link">
-                        <span class="text-danger" data-feather="trash-2"></span>
+                        <i class="fas fa-trash-alt"></i>
                     </button>
                 </td>
             </tr>

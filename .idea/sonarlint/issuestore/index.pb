@@ -6,3 +6,5 @@
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 9
 	audit.log,e\f\effcfbd9cc8c9d6c9ebc53774aed53a41971476b
+;
+.travis.yml,d\e\dea01dd89a3b602828e630677fde5d77c06441c8
