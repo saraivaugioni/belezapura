@@ -1,6 +1,10 @@
 package com.ugioni.belezapura.model;
 
+import org.hibernate.validator.constraints.Email;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 @Entity
@@ -13,12 +17,17 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "clientes_seq")
     private Long id;
 
+    @NotNull
+    @Size(max = 80)
     @Column(name = "nome", length = 80, nullable = false)
     private String nome;
 
+    @Size(max = 20)
     @Column(name = "telefone", length = 20)
     private String telefone;
 
+    @Email
+    @Size(max = 80)
     @Column(name = "email", length = 80)
     private String email;
 

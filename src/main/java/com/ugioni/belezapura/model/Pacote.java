@@ -1,6 +1,8 @@
 package com.ugioni.belezapura.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -13,10 +15,13 @@ public class Pacote {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "descricao")
+    @NotNull
+    @Size(max = 80)
+    @Column(name = "descricao", length = 80, nullable = false)
     private String descricao;
 
-    @Column(name = "especificacao")
+    @Size(max = 255)
+    @Column(name = "especificacao", length = 255)
     private String especificacao;
 
     @Column(name = "secoes")

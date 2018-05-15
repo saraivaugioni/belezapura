@@ -3,13 +3,17 @@ package com.ugioni.belezapura.services;
 import com.ugioni.belezapura.model.Protocolo;
 
 import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.validation.Valid;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
 @Stateless
+@TransactionAttribute(TransactionAttributeType.SUPPORTS)
 public class ProtocoloService {
 
     @PersistenceContext
@@ -20,12 +24,14 @@ public class ProtocoloService {
         return query.getResultList();
     }
 
-    public Protocolo insert(Protocolo protocolo) {
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public Protocolo insert(@Valid Protocolo protocolo) {
         em.persist(protocolo);
         return protocolo;
     }
 
-    public Protocolo update(Protocolo protocolo) {
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public Protocolo update(@Valid Protocolo protocolo) {
         return em.merge(protocolo);
     }
 
@@ -33,6 +39,7 @@ public class ProtocoloService {
         return em.find(Protocolo.class, id);
     }
 
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public Response remove(Long id) {
         Protocolo protocolo = em.getReference(Protocolo.class, id);
         em.remove(protocolo);
