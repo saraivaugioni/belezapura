@@ -5,22 +5,22 @@
 <form>
     <div class="form-group">
         <label for="descricao">Descrição</label>
-        <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite o nome">
+        <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite a descrição">
+    </div>
+    <div class="form-group ">
+        <label for="especificacao">Especificação</label>
+        <textarea ng-model="vm.registro.especificacao" class="form-control" id="especificacao" rows="4"></textarea>
     </div>
     <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="especificacao">Especificação</label>
-            <input ng-model="vm.registro.especificacao" type="text" class="form-control" id="especificacao">
-        </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-2">
             <label for="secoes">Seções</label>
             <input ng-model="vm.registro.secoes" type="text" class="form-control" id="secoes">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-5">
             <label for="valorSecao">Valor seção</label>
             <input ng-model="vm.registro.valorSecao" type="text" class="form-control" id="valorSecao">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-5">
             <label for="valorTotal">Valor total</label>
             <input ng-model="vm.registro.valorTotal" type="text" class="form-control" id="valorTotal">
         </div>

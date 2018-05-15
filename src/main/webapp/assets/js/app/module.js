@@ -9,6 +9,11 @@
 
         $stateProvider
             .state({
+                name: 'Home',
+                url: '',
+                templateUrl: '/view/home/list.html'
+            })
+            .state({
                 name: 'Clientes',
                 url: '/clientes',
                 templateUrl: '/view/clientes/list.html',

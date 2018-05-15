@@ -3,15 +3,19 @@
 </div>
 
 <form>
-    <div class="form-group">
-        <label for="codigo">Código</label>
-        <input ng-model="vm.registro.codigo" type="text" class="form-control" id="codigo" placeholder="Digite o nome">
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="codigo">Código</label>
+            <input ng-model="vm.registro.codigo" type="text" class="form-control" id="codigo">
+        </div>
     </div>
     <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-12">
             <label for="descricao">Descrição</label>
-            <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao">
+            <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite a descrição">
         </div>
+    </div>
+    <div class="form-row">
         <div class="form-group col-md-6">
             <label for="preco">Preço</label>
             <input ng-model="vm.registro.preco" type="text" class="form-control" id="preco">
