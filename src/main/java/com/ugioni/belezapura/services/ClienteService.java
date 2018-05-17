@@ -6,6 +6,7 @@ import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.persistence.EntityManager;
+import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.validation.Valid;
@@ -32,16 +33,27 @@ public class ClienteService {
 
     @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public Cliente update(@Valid Cliente cliente) {
+        Cliente original = em.getReference(Cliente.class, cliente.getId());
+        if (original == null) {
+            throw new EntityNotFoundException();
+        }
         return em.merge(cliente);
     }
 
     public Cliente findById(Long id) {
-        return em.find(Cliente.class, id);
+        Cliente cliente = em.find(Cliente.class, id);
+        if (cliente == null) {
+            throw new EntityNotFoundException();
+        }
+        return cliente;
     }
 
     @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public Response remove(Long id) {
         Cliente cliente = em.getReference(Cliente.class, id);
+        if (cliente == null) {
+            throw new EntityNotFoundException();
+        }
         em.remove(cliente);
         return Response.noContent().build();
     }

@@ -39,6 +39,9 @@ public class ClienteResource {
     @PUT
     @Path("{id}")
     public Response update(@PathParam("id") Long id, Cliente cliente) {
+        if (!id.equals(cliente.getId())) {
+            throw new BadRequestException("Id do cliente diferente");
+        }
         return Response.ok(service.update(cliente)).build();
     }
 
