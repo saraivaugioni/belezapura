@@ -9,7 +9,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "equipamentos")
-public class Equipamento {
+public class Equipamento implements Entidade {
 
     @Id
     @Column(name = "id_equipamento")

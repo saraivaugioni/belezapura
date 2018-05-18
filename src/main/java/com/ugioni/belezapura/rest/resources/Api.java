@@ -1,4 +1,4 @@
-package com.ugioni.belezapura.resources;
+package com.ugioni.belezapura.rest.resources;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

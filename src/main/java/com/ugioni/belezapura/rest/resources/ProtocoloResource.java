@@ -1,4 +1,4 @@
-package com.ugioni.belezapura.resources;
+package com.ugioni.belezapura.rest.resources;
 
 import com.ugioni.belezapura.model.Protocolo;
 import com.ugioni.belezapura.services.ProtocoloService;

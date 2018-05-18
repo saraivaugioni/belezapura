@@ -7,7 +7,7 @@ import java.util.Objects;
 
 //@Entity
 @Table(name = "pedidos")
-public class Pedido {
+public class Pedido implements Entidade {
 
     @Id
     @Column(name = "id_pedido")

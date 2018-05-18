@@ -10,7 +10,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "clientes")
 @SequenceGenerator(name = "clientes_seq", allocationSize = 1)
-public class Cliente {
+public class Cliente implements Entidade {
 
     @Id
     @Column(name = "id_cliente")

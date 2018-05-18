@@ -3,7 +3,7 @@ package com.ugioni.belezapura.model;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class PedidoItem {
+public class PedidoItem implements Entidade {
 
     private Long id;
 
