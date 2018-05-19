@@ -11,7 +11,7 @@
             .state({
                 name: 'Home',
                 url: '',
-                templateUrl: '/view/home/list.html'
+                templateUrl: '/view/home/carousel.html'
             })
             .state({
                 name: 'Clientes',

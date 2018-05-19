@@ -1,26 +1,0 @@
-
-Msquid:S1602",Remove useless curly braces around statement(ÛìÑûøÿÿÿÿ8ì¶¾…·,
-Msquid:S1612",Replace this lambda with a method reference.(ÛìÑûøÿÿÿÿ8ì¶¾…·,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(µğÄëşÿÿÿÿ8ì¶¾…·,
-csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ô»ğ™8ì¶¾…·,
-Msquid:S1602",Remove useless curly braces around statement(Ø÷õ¢ÿÿÿÿÿ8ì¶¾…·,
-Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8ì¶¾…·,
-Ysquid:S1611"8Remove the parentheses around the "orderField" parameter(´Ù«üÿÿÿÿ8ì¶¾…·,
-Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8ì¶¾…·,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(£şçÜøÿÿÿÿ8ì¶¾…·,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(µğÄëşÿÿÿÿ8ì¶¾…·,
-Msquid:S1612",Replace this lambda with a method reference.(Ø÷õ¢ÿÿÿÿÿ8ì¶¾…·,
-Xsquid:S1611"7Remove the parentheses around the "listFetch" parameter(Ø÷õ¢ÿÿÿÿÿ8ì¶¾…·,
-esquid:UnusedPrivateMethod";Remove this unused private "JpaCriteriaHelper" constructor.(š—ø8ì¶¾…·,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(µğÄëşÿÿÿÿ8ì¶¾…·,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÁÓÄÒøÿÿÿÿ8ì¶¾…·,
-Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8ì¶¾…·,
-bsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ñå›A8ì¶¾…·,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ôßÁ¿şÿÿÿÿ8ì¶¾…·,
-csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ªææ8ì¶¾…·,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(íÜÑªøÿÿÿÿ8ì¶¾…·,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(Ú‚Èûÿÿÿÿ8ì¶¾…·,
-Tsquid:S1611"3Remove the parentheses around the "fetch" parameter(ÛìÑûøÿÿÿÿ8ì¶¾…·,
-csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ô»ğ™8ì¶¾…·,
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹ş²¯8ì¶¾…·,
-\squid:S1611";Remove the parentheses around the "listAttribute" parameter(Ø÷õ¢ÿÿÿÿÿ8ì¶¾…·,

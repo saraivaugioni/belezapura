@@ -2,31 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Entidade.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/ConstraintViolationMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/EntityNotFoundMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JacksonConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JaxRsActivator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/AbstractCrudService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/GenericDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/JpaCriteriaHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/Producers.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/Api.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/Api.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ClienteResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ClienteResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/EquipamentoResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/EquipamentoResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/PacoteResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PacoteResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ProdutoResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProdutoResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ProtocoloResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProtocoloResource.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/014f08e9dfcbe690a4b94ad328d8523ae0d46c37" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/128951842794b65544b91a0b72dabd35420d58ce" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c67bbb394ff2fc0a2e680d7285b6b34e7a8ede8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31053ca8d6350a370c86b5e524c9c1eabc2bd5e8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38be1d903e68d58ea957db5ad9c5111560cc32f5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44b60b2cba06d861ba9d493355144c6c28d338a4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e63ec606b5db67e99014c9728524e9d166a9570" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a8b56bf93b419ba1274d7dd34c3316edef18345" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/704a8cecd04bd682f3d60c5b061bc5f23326ce21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849e0120e921bdd33f8c13a75211a2efcabdf8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86e3b332626a7a6c466eb7a96576350dcdf94769" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8733c3dcf44df59cabb1ca30c53aed6b35319e1f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4c5e920b80651901db1b4c7e9cbf742fccd98e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2df9ea91510f87106d6ce1cdbc32094cf386c4c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b19453e05ca515278476b34c921ebdbf9a08d373" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf17b6e4c0460446108ef6f192074aef2552ede2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc3f3fe4a2806e1b8afeda3905b26f3d07c2f9ec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfd42d2b2ee5c50ac44e618fc2ea453faa2996af" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecfa13e0d1cc2ea3f76ed8a0c63a1f5c74f89ab5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa7bdfa7eb102f8dac35272ecbee984443f67eea" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdd636e3cfcb1d414032cd738b97e6d107fd0b65" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,7 +124,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -152,6 +149,9 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,9 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -401,12 +398,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5980392" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5980392" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5980392" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -531,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,9 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,17 +698,17 @@
         <state relative-caret-position="408">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1054#1055#0" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1293#1294#0" expanded="false" />
+            <element signature="e#1328#1329#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -727,9 +718,9 @@
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#15147#15148#0" expanded="true" />
-            <element signature="e#15199#15200#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#15147#15148#0" expanded="false" />
+            <element signature="e#15199#15200#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,7 +730,7 @@
         <state relative-caret-position="221">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,9 +740,9 @@
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1268#1269#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,9 +752,9 @@
         <state relative-caret-position="445">
           <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1692#1693#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,9 +764,9 @@
         <state relative-caret-position="221">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,9 +776,9 @@
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#820#821#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +795,7 @@
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
