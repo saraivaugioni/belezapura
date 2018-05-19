@@ -1,9 +1,20 @@
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2">
     <h1 class="h2">Listagem de Clientes</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
-        <a ui-sref="Novo Cliente" class="btn btn-success">
+        <div class="input-group">
+            <input type="text" ng-model="vm.filtro" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+                <button type="button" ng-click="vm.resetFiltro()" class="btn btn-sm btn-secondary">
+                    <i class="far fa-times-circle"></i>
+                </button>
+                <button type="button" ng-click="vm.atualizar()" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <a ui-sref="Novo Cliente" class="btn btn-success ml-3">
             <i class="fas fa-plus-circle"></i>
-            Novo
+            <span>Novo</span>
         </a>
     </div>
 </div>
@@ -20,20 +31,40 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="item in vm.registros">
+            <tr ng-repeat="item in vm.data.registros">
                 <td>{{item.id}}</td>
                 <td>{{item.nome}}</td>
                 <td>{{item.telefone}}</td>
                 <td>{{item.email}}</td>
                 <td class="text-right">
-                    <button class="btn btn-sm btn-link">
+                    <button ui-sref="clientesEditar({id: item.id})" class="btn btn-sm btn-link">
                         <i class="far fa-edit"></i>
                     </button>
-                    <button ng-click="vm.remove(item.id)" class="btn btn-sm btn-link">
+                    <button ng-click="vm.excluir(item)" class="btn btn-sm btn-link">
                         <i class="fas fa-trash-alt"></i>
                     </button>
                 </td>
             </tr>
         </tbody>
     </table>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Próximo</a>
+            </li>
+        </ul>
+    </nav>
 </div>

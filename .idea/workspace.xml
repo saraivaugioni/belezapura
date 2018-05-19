@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/014f08e9dfcbe690a4b94ad328d8523ae0d46c37" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/128951842794b65544b91a0b72dabd35420d58ce" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c67bbb394ff2fc0a2e680d7285b6b34e7a8ede8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31053ca8d6350a370c86b5e524c9c1eabc2bd5e8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38be1d903e68d58ea957db5ad9c5111560cc32f5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44b60b2cba06d861ba9d493355144c6c28d338a4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e63ec606b5db67e99014c9728524e9d166a9570" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a8b56bf93b419ba1274d7dd34c3316edef18345" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/704a8cecd04bd682f3d60c5b061bc5f23326ce21" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849e0120e921bdd33f8c13a75211a2efcabdf8cb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86e3b332626a7a6c466eb7a96576350dcdf94769" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8733c3dcf44df59cabb1ca30c53aed6b35319e1f" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4c5e920b80651901db1b4c7e9cbf742fccd98e" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2df9ea91510f87106d6ce1cdbc32094cf386c4c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b19453e05ca515278476b34c921ebdbf9a08d373" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf17b6e4c0460446108ef6f192074aef2552ede2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc3f3fe4a2806e1b8afeda3905b26f3d07c2f9ec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfd42d2b2ee5c50ac44e618fc2ea453faa2996af" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecfa13e0d1cc2ea3f76ed8a0c63a1f5c74f89ab5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa7bdfa7eb102f8dac35272ecbee984443f67eea" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdd636e3cfcb1d414032cd738b97e6d107fd0b65" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

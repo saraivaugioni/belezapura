@@ -1,34 +1,48 @@
-(function(){
+(function () {
   'use strict'
 
   angular.module('app')
     .controller('ClienteListController', ClienteListController);
-  
-  ClienteListController.$inject = ['ClienteService'];
-  
-  function ClienteListController(ClienteService) {
-  
-      var vm = this;
-      vm.registros = [];
-      vm.remove = remove;
-  
-      function load() {
-        ClienteService.findAll()
-          .then(function (dados) {
-            vm.registros = dados;
-          });
-      }
 
-      function remove(id) {
-        if (confirm('Deseja realmente excluir o cliente?')) {
-          ClienteService.remove(id)
-          .then(function() {
-            alert('Cliente excluído com sucesso!!!');
-            load();
-          });
-        }
-      }
+  ClienteListController.$inject = ['ClienteService', 'DialogBuilder'];
+
+  function ClienteListController(ClienteService, DialogBuilder) {
+    var vm = this;
+    vm.data = {};
+    vm.filtro = '';
+
+    vm.atualizar = load;
+
+    vm.resetFiltro = function () {
+      vm.filtro = '';
       load();
+    }
+
+    function load() {
+      ClienteService.findAll(vm.filtro)
+        .then(function (dados) {
+          vm.data = dados
+        });
+    }
+
+    vm.excluir = function (item) {
+      DialogBuilder.confirm('Tem certeza que deseja remover o registro?')
+        .then(function (result) {
+          if (result.value) {
+            ClienteService.remove(item.id)
+              .then(function () {
+                load();
+                DialogBuilder.message('Registro excluído com sucesso!');
+              });
+          } else {
+            DialogBuilder.message({
+              title: 'Exclusão cancelada pelo usuário!',
+              type: 'error'
+            });
+          }
+        });
+    };
+    load();
   }
 
 })();

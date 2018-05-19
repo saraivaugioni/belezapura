@@ -28,6 +28,13 @@
                 controllerAs: 'vm'
             })
             .state({
+                name: 'clientesEditar',
+                url: '/clientes/{id}',
+                templateUrl: '/view/clientes/form.html',
+                controller: 'ClienteFormController',
+                controllerAs: 'vm'
+            })
+            .state({
                 name: 'Equipamentos',
                 url: '/equipamentos',
                 templateUrl: '/view/equipamentos/list.html',
