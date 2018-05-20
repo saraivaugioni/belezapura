@@ -9,7 +9,7 @@
   function PacoteService($http) {
 
     function findAll(filtro, page) {
-      return $http.get('/api/pacotes?filterField=nome&filterValue=' + filtro)
+      return $http.get('/api/pacotes?filterField=descricao&filterValue=' + filtro)
         .then(function (response) {
           return {
             registros: response.data,

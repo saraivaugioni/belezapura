@@ -1,0 +1,11 @@
+
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹ş²¯8ÅÆÉı·,
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ô»ğ™8ÅÆÉı·,
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ô»ğ™8ÅÆÉı·,
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(£şçÜøÿÿÿÿ8ÅÆÉı·,
+bsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ñå›A8ÅÆÉı·,
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÁÓÄÒøÿÿÿÿ8ÅÆÉı·,
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ôßÁ¿şÿÿÿÿ8ÅÆÉı·,
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ªææ8ÅÆÉı·,
+Msquid:S1612",Replace this lambda with a method reference.(¯•Íıÿÿÿÿ8ÅÆÉı·,
+Hsquid:S1612",Replace this lambda with a method reference.(ú‰·Ï8ÅÆÉı·,

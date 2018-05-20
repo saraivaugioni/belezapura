@@ -9,7 +9,7 @@
   function EquipamentoService($http) {
 
     function findAll(filtro, page) {
-      return $http.get('/api/equipamentos?filterField=nome&filterValue=' + filtro)
+      return $http.get('/api/equipamentos?filterField=descricao&filterValue=' + filtro)
         .then(function (response) {
           return {
             registros: response.data,

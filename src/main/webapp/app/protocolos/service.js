@@ -9,7 +9,7 @@
   function ProtocoloService($http) {
 
     function findAll(filtro, page) {
-      return $http.get('/api/protocolos?filterField=nome&filterValue=' + filtro)
+      return $http.get('/api/protocolos?filterField=descricao&filterValue=' + filtro)
         .then(function (response) {
           return {
             registros: response.data,

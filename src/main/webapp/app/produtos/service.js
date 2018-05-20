@@ -9,7 +9,7 @@
   function ProdutoService($http) {
 
     function findAll(filtro, page) {
-      return $http.get('/api/produtos?filterField=nome&filterValue=' + filtro)
+      return $http.get('/api/produtos?filterField=descricao&filterValue=' + filtro)
         .then(function (response) {
           return {
             registros: response.data,
