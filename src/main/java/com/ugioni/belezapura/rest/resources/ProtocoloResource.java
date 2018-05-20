@@ -1,21 +1,25 @@
 package com.ugioni.belezapura.rest.resources;
 
 import com.ugioni.belezapura.model.Protocolo;
+import com.ugioni.belezapura.rest.AbstractCrudResource;
+import com.ugioni.belezapura.services.AbstractCrudService;
 import com.ugioni.belezapura.services.ProtocoloService;
 
 import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.util.List;
-
+import javax.ws.rs.Path;
 
 @Path("protocolos")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-public class ProtocoloResource {
+public class ProtocoloResource extends AbstractCrudResource<Protocolo> {
 
     @Inject
+    private ProtocoloService service;
+
+    @Override
+    protected AbstractCrudService<Protocolo> getService() {
+        return service;
+    }
+
+    /*@Inject
     private ProtocoloService service;
 
     @GET
@@ -47,5 +51,5 @@ public class ProtocoloResource {
     public Response delete(@PathParam("id") Long id) {
         service.remove(id);
         return Response.noContent().build();
-    }
+    }*/
 }

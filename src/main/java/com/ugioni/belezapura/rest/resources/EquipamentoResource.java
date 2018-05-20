@@ -1,21 +1,25 @@
 package com.ugioni.belezapura.rest.resources;
 
 import com.ugioni.belezapura.model.Equipamento;
+import com.ugioni.belezapura.rest.AbstractCrudResource;
+import com.ugioni.belezapura.services.AbstractCrudService;
 import com.ugioni.belezapura.services.EquipamentoService;
 
 import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.util.List;
-
+import javax.ws.rs.Path;
 
 @Path("equipamentos")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-public class EquipamentoResource {
+public class EquipamentoResource extends AbstractCrudResource<Equipamento> {
 
     @Inject
+    private EquipamentoService service;
+
+    @Override
+    protected AbstractCrudService<Equipamento> getService() {
+        return service;
+    }
+
+    /*@Inject
     private EquipamentoService service;
 
     @GET
@@ -47,5 +51,5 @@ public class EquipamentoResource {
     public Response delete(@PathParam("id") Long id) {
         service.remove(id);
         return Response.noContent().build();
-    }
+    }*/
 }

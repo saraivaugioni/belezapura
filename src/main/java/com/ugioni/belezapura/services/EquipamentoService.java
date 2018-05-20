@@ -1,22 +1,26 @@
 package com.ugioni.belezapura.services;
 
 import com.ugioni.belezapura.model.Equipamento;
+import com.ugioni.belezapura.utils.GenericDao;
 
 import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
-import javax.validation.Valid;
-import javax.ws.rs.core.Response;
-import java.util.List;
+import javax.inject.Inject;
 
 @Stateless
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
-public class EquipamentoService {
+public class EquipamentoService extends AbstractCrudService<Equipamento> {
 
-    @PersistenceContext
+    @Inject
+    private GenericDao<Equipamento> dao;
+
+    @Override
+    protected GenericDao<Equipamento> getDao() {
+        return dao;
+    }
+
+    /*@PersistenceContext
     private EntityManager em;
 
     public List<Equipamento> findAll() {
@@ -44,5 +48,5 @@ public class EquipamentoService {
         Equipamento equipamento = em.getReference(Equipamento.class, id);
         em.remove(equipamento);
         return Response.noContent().build();
-    }
+    }*/
 }

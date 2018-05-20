@@ -5,13 +5,14 @@ import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
-//@Entity
+@Entity
 @Table(name = "pedidos")
+@SequenceGenerator(name = "pedidos_seq", sequenceName = "pedidos_seq", allocationSize = 1)
 public class Pedido implements Entidade {
 
     @Id
     @Column(name = "id_pedido")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pedidos_seq")
     private Long id;
 
     @ManyToOne

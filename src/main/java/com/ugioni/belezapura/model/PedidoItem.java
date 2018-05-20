@@ -1,18 +1,30 @@
 package com.ugioni.belezapura.model;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Objects;
 
+@Entity
+@Table(name = "pedidos_itens")
+@SequenceGenerator(name = "pedidos_itens_seq", sequenceName = "pedidos_itens_seq", allocationSize = 1)
 public class PedidoItem implements Entidade {
 
+    @Id
+    @Column(name = "id_pedido_item")
+    @GeneratedValue(generator = "pedidos_itens_seq", strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @ManyToOne
+    @JoinColumn(name = "id_produto")
     private Produto produto;
 
+    @Column(name = "vl_unitario", precision = 15, scale = 5)
     private BigDecimal valorUnitario;
 
+    @Column(name = "quantidade", precision = 15, scale = 5)
     private BigDecimal quantidade;
 
+    @Column(name = "vl_total", precision = 15, scale = 5)
     private BigDecimal valorTotal;
 
     public Long getId() {
