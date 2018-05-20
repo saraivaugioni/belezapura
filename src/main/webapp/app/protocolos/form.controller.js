@@ -4,9 +4,9 @@
   angular.module('app')
     .controller('ProtocoloFormController', ProtocoloFormController);
 
-  ProtocoloFormController.$inject = ['ProtocoloService'];
+  ProtocoloFormController.$inject = ['ProtocoloService', 'DialogBuilder'];
 
-  function ProtocoloFormController(ProtocoloService) {
+  function ProtocoloFormController(ProtocoloService, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
@@ -15,9 +15,10 @@
     function salvar() {
       ProtocoloService.insert(vm.registro)
         .then(function (dado) {
-          alert('Protocolo ' + dado.descricao + ' inserido com sucesso!!!');
+          DialogBuilder.message('Protocolo ' + dado.descricao + ' inserido com sucesso!!!');
           vm.registro = {};
         });
     }
   }
+
 })();

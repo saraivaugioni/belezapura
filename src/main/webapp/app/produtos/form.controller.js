@@ -4,9 +4,9 @@
   angular.module('app')
     .controller('ProdutoFormController', ProdutoFormController);
 
-  ProdutoFormController.$inject = ['ProdutoService'];
+  ProdutoFormController.$inject = ['ProdutoService', 'DialogBuilder'];
 
-  function ProdutoFormController(ProdutoService) {
+  function ProdutoFormController(ProdutoService, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
@@ -15,9 +15,10 @@
     function salvar() {
       ProdutoService.insert(vm.registro)
         .then(function (dado) {
-          alert('Produto ' + dado.descricao + ' inserido com sucesso!!!');
+          DialogBuilder.message('Produto ' + dado.descricao + ' inserido com sucesso!!!');
           vm.registro = {};
         });
     }
   }
+
 })();

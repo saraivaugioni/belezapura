@@ -8,6 +8,7 @@
 
   function ClienteFormController(ClienteService, DialogBuilder) {
     var vm = this;
+
     vm.registro = {}
     vm.salvar = salvar;
 

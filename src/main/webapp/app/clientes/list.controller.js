@@ -7,6 +7,7 @@
   ClienteListController.$inject = ['ClienteService', 'DialogBuilder'];
 
   function ClienteListController(ClienteService, DialogBuilder) {
+
     var vm = this;
     vm.data = {};
     vm.filtro = '';

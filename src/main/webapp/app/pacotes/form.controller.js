@@ -4,9 +4,9 @@
   angular.module('app')
     .controller('PacoteFormController', PacoteFormController);
 
-    PacoteFormController.$inject = ['PacoteService'];
+  PacoteFormController.$inject = ['PacoteService', 'DialogBuilder'];
 
-  function PacoteFormController(PacoteService) {
+  function PacoteFormController(PacoteService, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
@@ -15,9 +15,10 @@
     function salvar() {
       PacoteService.insert(vm.registro)
         .then(function (dado) {
-          alert('Pacote ' + dado.descricao + ' inserido com sucesso!!!');
+          DialogBuilder.message('Pacote ' + dado.descricao + ' inserido com sucesso!!!');
           vm.registro = {};
         });
     }
   }
+
 })();

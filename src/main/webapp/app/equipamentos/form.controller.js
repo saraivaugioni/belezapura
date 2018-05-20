@@ -4,9 +4,9 @@
   angular.module('app')
     .controller('EquipamentoFormController', EquipamentoFormController);
 
-  EquipamentoFormController.$inject = ['EquipamentoService'];
+  EquipamentoFormController.$inject = ['EquipamentoService', 'DialogBuilder'];
 
-  function EquipamentoFormController(EquipamentoService) {
+  function EquipamentoFormController(EquipamentoService, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
@@ -15,7 +15,7 @@
     function salvar() {
       EquipamentoService.insert(vm.registro)
         .then(function (dado) {
-          alert('Equipamento ' + dado.descricao + ' inserido com sucesso!!!');
+          DialogBuilder.message('Equipamento ' + dado.descricao + ' inserido com sucesso!!!');
           vm.registro = {};
         });
     }

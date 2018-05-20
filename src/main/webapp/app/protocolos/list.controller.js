@@ -4,30 +4,46 @@
   angular.module('app')
     .controller('ProtocoloListController', ProtocoloListController);
 
-  ProtocoloListController.$inject = ['ProtocoloService'];
+  ProtocoloListController.$inject = ['ProtocoloService', 'DialogBuilder'];
 
-  function ProtocoloListController(ProtocoloService) {
+  function ProtocoloListController(ProtocoloService, DialogBuilder) {
 
     var vm = this;
-    vm.registros = [];
-    vm.remove = remove;
+    vm.data = {};
+    vm.filtro = '';
+
+    vm.atualizar = load;
+
+    vm.resetFiltro = function () {
+      vm.filtro = '';
+      load();
+    }
 
     function load() {
-      ProtocoloService.findAll()
+      ProtocoloService.findAll(vm.filtro)
         .then(function (dados) {
-          vm.registros = dados;
+          vm.data = dados
         });
     }
 
-    function remove(id) {
-      if (confirm('Deseja realmente excluir o protocolo?')) {
-        ProtocoloService.remove(id)
-          .then(function () {
-            alert('protocolo excluído com sucesso!!!');
-            load();
-          });
-      }
-    }
+    vm.excluir = function (item) {
+      DialogBuilder.confirm('Tem certeza que deseja remover o registro?')
+        .then(function (result) {
+          if (result.value) {
+            ProtocoloService.remove(item.id)
+              .then(function () {
+                load();
+                DialogBuilder.message('Registro excluído com sucesso!');
+              });
+          } else {
+            DialogBuilder.message({
+              title: 'Exclusão cancelada pelo usuário!',
+              type: 'error'
+            });
+          }
+        });
+    };
     load();
   }
+
 })();

@@ -4,30 +4,46 @@
   angular.module('app')
     .controller('ProdutoListController', ProdutoListController);
 
-  ProdutoListController.$inject = ['ProdutoService'];
+  ProdutoListController.$inject = ['ProdutoService', 'DialogBuilder'];
 
-  function ProdutoListController(ProdutoService) {
+  function ProdutoListController(ProdutoService, DialogBuilder) {
 
     var vm = this;
-    vm.registros = [];
-    vm.remove = remove;
+    vm.data = {};
+    vm.filtro = '';
+
+    vm.atualizar = load;
+
+    vm.resetFiltro = function () {
+      vm.filtro = '';
+      load();
+    }
 
     function load() {
-      ProdutoService.findAll()
+      ProdutoService.findAll(vm.filtro)
         .then(function (dados) {
-          vm.registros = dados;
+          vm.data = dados
         });
     }
 
-    function remove(id) {
-      if (confirm('Deseja realmente excluir o produto?')) {
-        ProdutoService.remove(id)
-          .then(function () {
-            alert('produto excluído com sucesso!!!');
-            load();
-          });
-      }
-    }
+    vm.excluir = function (item) {
+      DialogBuilder.confirm('Tem certeza que deseja remover o registro?')
+        .then(function (result) {
+          if (result.value) {
+            ProdutoService.remove(item.id)
+              .then(function () {
+                load();
+                DialogBuilder.message('Registro excluído com sucesso!');
+              });
+          } else {
+            DialogBuilder.message({
+              title: 'Exclusão cancelada pelo usuário!',
+              type: 'error'
+            });
+          }
+        });
+    };
     load();
   }
+
 })();
