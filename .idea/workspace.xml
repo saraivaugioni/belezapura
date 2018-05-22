@@ -2,10 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/service.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/pacotes/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/pacotes/service.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/protocolos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/protocolos/service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/014f08e9dfcbe690a4b94ad328d8523ae0d46c37" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/128951842794b65544b91a0b72dabd35420d58ce" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1706184a83cce80eec4096fe21dbf94b94b65a42" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a079250736b459a2e84984d3033a1d9fd2c08ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c67bbb394ff2fc0a2e680d7285b6b34e7a8ede8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31053ca8d6350a370c86b5e524c9c1eabc2bd5e8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38be1d903e68d58ea957db5ad9c5111560cc32f5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42fcc8077c11cef21801168271854e0555ada00b" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e63ec606b5db67e99014c9728524e9d166a9570" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525a56df4134eb567f9e6474ed7325248d283c41" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a8b56bf93b419ba1274d7dd34c3316edef18345" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64ed2c9d3987ce72d784ddee0a09174441a47788" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c35bc35ee8e2977aa02d2a9fb0083aa95ce248d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849e0120e921bdd33f8c13a75211a2efcabdf8cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86e3b332626a7a6c466eb7a96576350dcdf94769" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cfcbbe75fd07c342139fac8bb7f140b6228fd94" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4c5e920b80651901db1b4c7e9cbf742fccd98e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2df9ea91510f87106d6ce1cdbc32094cf386c4c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b19453e05ca515278476b34c921ebdbf9a08d373" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdc465b888ac4d5e72fe7c2cf7debe87af8a7518" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c55ef60dce0c1b2c8eeeef88a02c7ad90f97ac4b" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf17b6e4c0460446108ef6f192074aef2552ede2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf74d6d5861dc498df05e7fad2264ac3a8516053" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc3f3fe4a2806e1b8afeda3905b26f3d07c2f9ec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfd42d2b2ee5c50ac44e618fc2ea453faa2996af" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecfa13e0d1cc2ea3f76ed8a0c63a1f5c74f89ab5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa7bdfa7eb102f8dac35272ecbee984443f67eea" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdd636e3cfcb1d414032cd738b97e6d107fd0b65" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/form.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/form.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/clientes/form.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/clientes/form.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/clientes/list.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/clientes/list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +83,6 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ClienteResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Entidade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java" />
@@ -61,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/Producers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/GenericDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/AbstractCrudResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/EntityNotFoundMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JacksonConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JaxRsActivator.java" />
@@ -83,6 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PedidoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PedidoResource.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" />
       </list>
     </option>
   </component>
@@ -114,7 +149,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -138,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,8 +272,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,7 +425,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -399,12 +434,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5980392" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5980392" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5980392" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40522876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -475,7 +510,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +536,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,14 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/Api.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ClienteResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -759,14 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -816,14 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/JpaCriteriaHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -845,8 +862,35 @@
         <state relative-caret-position="136">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ValidationMessages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="114" lean-forward="false" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="e#1769#1770#0" expanded="false" />
+            <element signature="e#1817#1818#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

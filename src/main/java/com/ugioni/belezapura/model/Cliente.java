@@ -17,17 +17,17 @@ public class Cliente implements Entidade {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "clientes_seq")
     private Long id;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Cliente.nome.NotNull}")
+    @Size(max = 80, message = "{Cliente.nome.Size}")
     @Column(name = "nome", length = 80, nullable = false)
     private String nome;
 
-    @Size(max = 20)
+    @Size(max = 20, message = "{Cliente.telefone.Size}")
     @Column(name = "telefone", length = 20)
     private String telefone;
 
-    @Email
-    @Size(max = 80)
+    @Email(message = "{Cliente.email.Email}")
+    @Size(max = 80, message = "{Cliente.email.Size}")
     @Column(name = "email", length = 80)
     private String email;
 

@@ -5,16 +5,25 @@
 <form>
     <div class="form-group">
         <label for="nome">Nome</label>
-        <input ng-model="vm.registro.nome" type="text" class="form-control" id="nome" placeholder="Digite o nome">
+        <input ng-class="{'is-invalid': vm.error.nome}" ng-model="vm.registro.nome" type="text" class="form-control" id="nome" placeholder="Digite o nome">
+        <small ng-if="vm.error.nome" class="invalid-feedback">
+            {{vm.error.nome[1]}}
+        </small>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="telefone">Telefone</label>
-            <input ng-model="vm.registro.telefone" type="text" class="form-control" id="telefone">
+            <input ng-class="{'is-invalid': vm.error.telefone}" ng-model="vm.registro.telefone" type="text" class="form-control" id="telefone">
+            <small ng-if="vm.error.telefone" class="invalid-feedback">
+                {{vm.error.telefone[1]}}
+            </small>
         </div>
         <div class="form-group col-md-6">
             <label for="email">Email</label>
-            <input ng-model="vm.registro.email" type="text" class="form-control" id="email">
+            <input ng-class="{'is-invalid': vm.error.email}" ng-model="vm.registro.email" type="text" class="form-control" id="email">
+            <small ng-if="vm.error.email" class="invalid-feedback">
+                {{vm.error.email[1]}}
+            </small>
         </div>
     </div>
     <div class="form-row justify-content-end">
