@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_18_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/belezapura.iml" afterPath="$PROJECT_DIR$/belezapura.iml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ClienteResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ClienteResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/EquipamentoResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/EquipamentoResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PacoteResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PacoteResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProdutoResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProdutoResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProtocoloResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProtocoloResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ClienteService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ClienteService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/EquipamentoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/EquipamentoService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PacoteService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PacoteService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ProdutoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ProdutoService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ProtocoloService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ProtocoloService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +19,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="425">
+              <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -48,8 +29,18 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="214" lean-forward="false" selection-start-line="4" selection-start-column="214" selection-end-line="4" selection-end-column="214" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JacksonConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/JaxRsActivator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/ConstraintViolationMapper.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/JpaCriteriaHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" />
@@ -112,8 +102,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ClienteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/EquipamentoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PacoteService.java" />
@@ -124,6 +112,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ClienteResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProtocoloResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProdutoResource.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -605,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -879,18 +863,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="214" lean-forward="false" selection-start-line="4" selection-start-column="214" selection-end-line="4" selection-end-column="214" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding />
         </state>
       </provider>

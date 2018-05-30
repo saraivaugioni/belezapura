@@ -98,7 +98,6 @@
                 <version>${jacoco.version}</version>
             </plugin>
         </plugins>
-
     </reporting>
 
     <dependencies>
