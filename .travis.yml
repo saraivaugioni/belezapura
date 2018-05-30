@@ -1,1 +1,20 @@
 language: java
+sudo: false
+
+after_success:
+  - "mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=sentinelaapi-github -Dsonar.login=ce195d17c3f24dc37811e69ef9f75e005eb249e9 -Dsonar.branch=master"
+
+install:
+  - "mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
+
+jdk:
+ - oraclejdk8
+
+cache:
+ directories:
+   - '$HOME/.m2/repository'
+   - '$HOME/.sonar/cache'
+
+notifications:
+  email:
+    - leandro_ugioni@hotmail.com

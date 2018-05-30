@@ -19,34 +19,4 @@ public class ProdutoService extends AbstractCrudService<Produto> {
     protected GenericDao<Produto> getDao() {
         return dao;
     }
-
-    /*@PersistenceContext
-    private EntityManager em;
-
-    public List<Produto> findAll() {
-        Query query = em.createQuery("SELECT p FROM Produto AS p", Produto.class);
-        return query.getResultList();
-    }
-
-    @TransactionAttribute(TransactionAttributeType.REQUIRED)
-    public Produto insert(@Valid Produto produto) {
-        em.persist(produto);
-        return produto;
-    }
-
-    @TransactionAttribute(TransactionAttributeType.REQUIRED)
-    public Produto update(@Valid Produto produto) {
-        return em.merge(produto);
-    }
-
-    public Produto findById(Long id) {
-        return em.find(Produto.class, id);
-    }
-
-    @TransactionAttribute(TransactionAttributeType.REQUIRED)
-    public Response remove(Long id) {
-        Produto produto = em.getReference(Produto.class, id);
-        em.remove(produto);
-        return Response.noContent().build();
-    }*/
 }
