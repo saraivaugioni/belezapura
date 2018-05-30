@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/saraivaugioni/belezapura.svg?branch=master)](https://travis-ci.org/saraivaugioni/belezapura)
 [![GitHub stars](https://img.shields.io/github/stars/saraivaugioni/belezapura.svg)](https://github.com/saraivaugioni/belezapura/stargazers)
-[![SonarQube Coverage](https://img.shields.io/sonar/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/coverage.svg)](https://sonarcloud.io/dashboard?id=com.saraivaugioni%3Abelezapura)
+[![SonarQube Coverage](https://img.shields.io/sonar/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/coverage.svg)](https://sonarcloud.io/dashboard?id=com.ugioni%3Abelezapura)
 
 ## Projeto
 
@@ -26,4 +26,4 @@ mvn clean test
 
 ## Build e Análise
 - Build remoto: [Travis CI](https://travis-ci.org/saraivaugioni/belezapura)
-- Qualidade de código: [SonarCloud](https://sonarcloud.io/dashboard?id=com.saraivaugioni%3Abelezapura)
+- Qualidade de código: [SonarCloud](https://sonarcloud.io/dashboard?id=com.ugioni%3Abelezapura)
