@@ -4,20 +4,42 @@
   angular.module('app')
     .controller('ProtocoloFormController', ProtocoloFormController);
 
-  ProtocoloFormController.$inject = ['ProtocoloService', 'DialogBuilder'];
+  ProtocoloFormController.$inject = ['ProtocoloService', '$state', '$stateParams', 'DialogBuilder'];
 
-  function ProtocoloFormController(ProtocoloService, DialogBuilder) {
+  function ProtocoloFormController(ProtocoloService, $state, $stateParams, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
+    vm.error = {};
     vm.salvar = salvar;
 
-    function salvar() {
-      ProtocoloService.insert(vm.registro)
-        .then(function (dado) {
-          DialogBuilder.message('Protocolo ' + dado.descricao + ' inserido com sucesso!!!');
-          vm.registro = {};
+    if ($stateParams.id) {
+      ProtocoloService.findById($stateParams.id)
+        .then(function (data) {
+          vm.registro = data;
         });
+    }
+
+    function salvar() {
+      if (!vm.registro.id) {
+        ProtocoloService.insert(vm.registro)
+          .then(function (dado) {
+            DialogBuilder.message('Registro inserido com sucesso!');
+            $state.go("^");
+          })
+          .catch(function (error) {
+            vm.error = error.data;
+          });
+      } else {
+        ProtocoloService.update(vm.registro)
+          .then(function (dado) {
+            DialogBuilder.message('Registro alterado com sucesso!');
+            $state.go("^");
+          })
+          .catch(function (error) {
+            vm.error = error.data;
+          });
+      }
     }
   }
 

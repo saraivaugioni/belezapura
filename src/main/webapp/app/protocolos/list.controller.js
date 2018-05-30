@@ -12,6 +12,11 @@
     vm.data = {};
     vm.filtro = '';
 
+    vm.page = {
+      number: 1,
+      size: '15'
+    }
+
     vm.atualizar = load;
 
     vm.resetFiltro = function () {
@@ -19,8 +24,13 @@
       load();
     }
 
+    vm.goToPage = function (page) {
+      vm.page.number = page;
+      load();
+    }
+
     function load() {
-      ProtocoloService.findAll(vm.filtro)
+      ProtocoloService.findAll(vm.filtro, vm.page)
         .then(function (dados) {
           vm.data = dados
         });

@@ -2,32 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_deltaspike_core_deltaspike_core_api_1_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_deltaspike_core_deltaspike_core_impl_1_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_0_14_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_0_24_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jglue_cdi_unit_cdi_unit_4_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_18_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/belezapura.iml" afterPath="$PROJECT_DIR$/belezapura.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.ugioni.belezapura/teste.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/form.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/form.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/service.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/pacotes/form.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/pacotes/form.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/pacotes/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/pacotes/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/pacotes/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/pacotes/service.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/form.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/form.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/protocolos/form.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/protocolos/form.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/protocolos/list.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/protocolos/list.controller.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/protocolos/service.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/protocolos/service.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/list.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/pacotes/list.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/pacotes/list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/produtos/list.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/produtos/list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/protocolos/list.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/protocolos/list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
