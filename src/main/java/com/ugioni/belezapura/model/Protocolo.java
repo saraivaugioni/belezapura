@@ -14,12 +14,12 @@ public class Protocolo implements Entidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Protocolo.descricao.NotNull}")
+    @Size(max = 80, message = "{Protocolo.descricao.Size}")
     @Column(name = "descricao", length = 80, nullable = false)
     private String descricao;
 
-    @Size(max = 255)
+    @Size(max = 255, message = "{Protocolo.especificacao.Size}")
     @Column(name = "especificacao", length = 255)
     private String especificacao;
 

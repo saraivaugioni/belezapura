@@ -15,13 +15,13 @@ public class Produto implements Entidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Produto.codigo.NotNull}")
+    @Size(max = 80, message = "{Produto.codigo.Size}")
     @Column(name = "codigo", length = 80, nullable = false)
     private String codigo;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Produto.descricao.NotNull}")
+    @Size(max = 80, message = "{Produto.descricao.Size}")
     @Column(name = "descricao", length = 80, nullable = false)
     private String descricao;
 
