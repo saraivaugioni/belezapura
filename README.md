@@ -8,7 +8,7 @@
 
 Software Beleza Pura / Java 8 + AngularJS + Wildfly-Swarm
 
-## Instalação
+## Instalação e execução local do projeto
 
 - Build e dependências: [Maven](https://maven.apache.org/)
 - Stack: [WildFly Swarm](http://wildfly-swarm.io/)
@@ -17,13 +17,15 @@ Software Beleza Pura / Java 8 + AngularJS + Wildfly-Swarm
 mvn clean wildfly-swarm:run
 ```
 
-## Testes e Cobertura
+## Testes unitários e Cobertura de código
 
-Testes e cobertura: [JUnit 5](https://junit.org/junit5/)
+- [JUnit 5](https://junit.org/junit5/)
+
 ```
 mvn clean test
 ```
 
-## Build e Análise
-- Build remoto: [Travis CI](https://travis-ci.org/saraivaugioni/belezapura)
-- Qualidade de código: [SonarCloud](https://sonarcloud.io/dashboard?id=com.ugioni%3Abelezapura)
+## Integração contínua e Análise estática
+
+- [Travis CI](https://travis-ci.org/saraivaugioni/belezapura)
+- [SonarCloud](https://sonarcloud.io/dashboard?id=com.ugioni%3Abelezapura)
