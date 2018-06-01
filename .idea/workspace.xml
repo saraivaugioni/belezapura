@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/form.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/form.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/pacotes/form.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/pacotes/form.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/produtos/form.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/produtos/form.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/protocolos/form.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/protocolos/form.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +22,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ValidationMessages.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ValidationMessages.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="97" lean-forward="true" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -444,7 +433,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -458,7 +446,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30257186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30257186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40522876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -817,34 +805,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="289">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="102">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -857,10 +837,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Protocolo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ValidationMessages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="97" lean-forward="true" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
+          <caret line="31" column="97" lean-forward="false" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
           <folding />
         </state>
       </provider>

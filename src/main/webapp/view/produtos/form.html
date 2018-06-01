@@ -6,13 +6,20 @@
     <div class="form-row">
         <div class="form-group col-md-3">
             <label for="codigo">Código</label>
-            <input ng-model="vm.registro.codigo" type="text" class="form-control" id="codigo">
+            <input ng-class="{'is-invalid': vm.error.codigo}" ng-model="vm.registro.codigo" type="text" class="form-control" id="codigo">
+            <small ng-if="vm.error.codigo" class="invalid-feedback">
+                {{vm.error.codigo[1]}}
+            </small>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-12">
             <label for="descricao">Descrição</label>
-            <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite a descrição">
+            <input ng-class="{'is-invalid': vm.error.descricao}" ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao"
+                placeholder="Digite a descrição">
+            <small ng-if="vm.error.descricao" class="invalid-feedback">
+                {{vm.error.descricao[1]}}
+            </small>
         </div>
     </div>
     <div class="form-row">

@@ -5,11 +5,19 @@
 <form>
     <div class="form-group">
         <label for="descricao">Descrição</label>
-        <input ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao" placeholder="Digite a descrição">
+        <input ng-class="{'is-invalid': vm.error.descricao}" ng-model="vm.registro.descricao" type="text" class="form-control" id="descricao"
+            placeholder="Digite a descrição">
+        <small ng-if="vm.error.descricao" class="invalid-feedback">
+            {{vm.error.descricao[1]}}
+        </small>
     </div>
     <div class="form-group">
         <label for="especificacao">Especificação</label>
-        <textarea ng-model="vm.registro.especificacao" class="form-control" id="especificacao" rows="3"></textarea>
+        <textarea ng-class="{'is-invalid': vm.error.especificacao}" ng-model="vm.registro.especificacao" class="form-control" id="especificacao"
+            rows="3"></textarea>
+        <small ng-if="vm.error.especificacao" class="invalid-feedback">
+            {{vm.error.especificacao[1]}}
+        </small>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
