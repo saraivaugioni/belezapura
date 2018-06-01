@@ -16,12 +16,12 @@ public class Equipamento implements Entidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Equipamento.descricao.NotNull}")
+    @Size(max = 80, message = "{Equipamento.descricao.Size}")
     @Column(name = "descricao", length = 80, nullable = false)
     private String descricao;
 
-    @Size(max = 255)
+    @Size(max = 255, message = "{Equipamento.especificacao.Size}")
     @Column(name = "especificacao", length = 255)
     private String especificacao;
 

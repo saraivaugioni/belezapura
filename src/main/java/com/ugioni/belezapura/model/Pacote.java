@@ -15,12 +15,12 @@ public class Pacote implements Entidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @Size(max = 80)
+    @NotNull(message = "{Pacote.descricao.NotNull}")
+    @Size(max = 80, message = "{Pacote.descricao.Size}")
     @Column(name = "descricao", length = 80, nullable = false)
     private String descricao;
 
-    @Size(max = 255)
+    @Size(max = 255, message = "{Pacote.especificacao.Size}")
     @Column(name = "especificacao", length = 255)
     private String especificacao;
 
