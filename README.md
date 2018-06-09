@@ -1,7 +1,7 @@
 # Beleza Pura
 
 [![Build Status](https://travis-ci.org/saraivaugioni/belezapura.svg?branch=master)](https://travis-ci.org/saraivaugioni/belezapura)
-[![SonarQube Coverage](https://img.shields.io/sonar/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/coverage.svg)](https://sonarcloud.io/component_measures?id=com.ugioni%3Abelezapura&metric=coverage)
+[![SonarQube Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.ugioni%3Abelezapura&metric=coverage)](https://sonarcloud.io/component_measures?id=com.ugioni%3Abelezapura&metric=coverage)
 [![GitHub stars](https://img.shields.io/github/stars/saraivaugioni/belezapura.svg)](https://github.com/saraivaugioni/belezapura/stargazers)
 
 ## Projeto
