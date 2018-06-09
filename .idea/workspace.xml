@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProtocoloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/utils/GenericDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +20,33 @@
     <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_model_in_belezapura.coverage" NAME="com.ugioni.belezapura.model in belezapura Coverage Results" MODIFIED="1528161982599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ugioni.belezapura.model.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_in_belezapura.ic" NAME="com.ugioni.belezapura in belezapura Coverage Results" MODIFIED="1528583283659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ugioni.belezapura.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_model_in_belezapura.ic" NAME="com.ugioni.belezapura.model in belezapura Coverage Results" MODIFIED="1528580609986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ugioni.belezapura.model.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java">
+      <file leaf-file-name="GenericDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/GenericDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java">
+      <file leaf-file-name="GenericDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/utils/GenericDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding>
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,6 +123,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProtocoloTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/utils/GenericDaoTest.java" />
       </list>
     </option>
   </component>
@@ -157,7 +155,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -220,6 +218,15 @@
               <item name="belezapura" type="b2602c69:ProjectViewProjectNode" />
               <item name="belezapura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="belezapura" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belezapura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belezapura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +242,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="belezapura" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belezapura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belezapura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="belezapura" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,48 +284,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoTest">
+  <component name="RunManager" selected="JUnit.com.ugioni.belezapura in belezapura">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belezapura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ugioni.belezapura.model.*" />
+          <option name="PATTERN" value="com.ugioni.belezapura.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ugioni.belezapura.model" />
-      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.ClienteTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EquipamentoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belezapura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ugioni.belezapura.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ugioni.belezapura.model" />
-      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.EquipamentoTest" />
+      <option name="PACKAGE_NAME" value="com.ugioni.belezapura.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.utils.GenericDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -374,6 +367,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="com.ugioni.belezapura in belezapura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belezapura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ugioni.belezapura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ugioni.belezapura" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -456,19 +472,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.Run" />
-      <item itemvalue="JUnit.ClienteTest" />
-      <item itemvalue="JUnit.EquipamentoTest" />
       <item itemvalue="JUnit.com.ugioni.belezapura.model in belezapura" />
       <item itemvalue="JUnit.ProtocoloTest" />
       <item itemvalue="JUnit.ProdutoTest" />
+      <item itemvalue="JUnit.GenericDaoTest" />
+      <item itemvalue="JUnit.com.ugioni.belezapura in belezapura" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.ugioni.belezapura in belezapura" />
+        <item itemvalue="JUnit.GenericDaoTest" />
+        <item itemvalue="JUnit.com.ugioni.belezapura.model in belezapura" />
         <item itemvalue="JUnit.ProdutoTest" />
         <item itemvalue="JUnit.ProtocoloTest" />
-        <item itemvalue="JUnit.com.ugioni.belezapura.model in belezapura" />
-        <item itemvalue="JUnit.EquipamentoTest" />
-        <item itemvalue="JUnit.ClienteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -486,21 +502,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PacoteTest - 2018.06.04 at 20h 43m 04s.xml">
-      <configuration name="PacoteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PacoteTest - 2018.06.04 at 22h 15m 49s.xml">
-      <configuration name="PacoteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_ugioni_belezapura_model_in_belezapura - 2018.06.04 at 22h 26m 33s.xml">
-      <configuration name="com.ugioni.belezapura.model in belezapura" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="teste - 2018.05.29 at 23h 33m 45s.xml">
-      <configuration name="teste" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="teste - 2018.05.29 at 23h 35m 14s.xml">
-      <configuration name="teste" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="teste - 2018.05.29 at 23h 35m 38s.xml">
       <configuration name="teste" configurationId="TestNG" />
     </history-entry>
@@ -516,6 +517,21 @@
     <history-entry file="ProdutoTest - 2018.06.09 at 18h 39m 25s.xml">
       <configuration name="ProdutoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_ugioni_belezapura_model_in_belezapura - 2018.06.09 at 18h 43m 39s.xml">
+      <configuration name="com.ugioni.belezapura.model in belezapura" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDaoTest - 2018.06.09 at 19h 27m 24s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.09 at 19h 28m 13s.xml">
+      <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDaoTest - 2018.06.09 at 19h 33m 03s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericDaoTest - 2018.06.09 at 19h 33m 24s.xml">
+      <configuration name="GenericDaoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -530,6 +546,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.25037822" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.5980392" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.51626015" weight="0.32980332" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -542,7 +559,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.51626015" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -587,9 +603,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/audit.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -647,13 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="522" selection-start-line="522" selection-end-line="522" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -861,17 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Entidade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -899,20 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="205" selection-start-line="3" selection-start-column="205" selection-end-line="3" selection-end-column="205" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProtocoloTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -931,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -953,6 +927,57 @@
             <element signature="e#894#895#0" expanded="true" />
             <element signature="e#1181#1182#0" expanded="true" />
             <element signature="e#1247#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="205" selection-start-line="3" selection-start-column="205" selection-end-line="3" selection-end-column="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/utils/GenericDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>
