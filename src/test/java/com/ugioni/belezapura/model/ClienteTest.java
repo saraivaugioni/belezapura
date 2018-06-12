@@ -45,4 +45,16 @@ public class ClienteTest {
     public void testToString() {
         assertNotNull(cliente().toString());
     }
+
+    @Test
+    @DisplayName("Testando hashCode")
+    public void testHashCode() {
+        assertNotNull(cliente().hashCode());
+    }
+
+    @Test
+    @DisplayName("Testando equals")
+    public void testEquals() {
+        assertNotNull(cliente().equals(cliente()));
+    }
 }

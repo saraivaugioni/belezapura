@@ -54,4 +54,16 @@ public class ProdutoTest {
     public void testToString() {
         assertNotNull(produto().toString());
     }
+
+    @Test
+    @DisplayName("Testando hashCode")
+    public void testHashCode() {
+        assertNotNull(produto().hashCode());
+    }
+
+    @Test
+    @DisplayName("Testando equals")
+    public void testEquals() {
+        assertNotNull(produto().equals(produto()));
+    }
 }

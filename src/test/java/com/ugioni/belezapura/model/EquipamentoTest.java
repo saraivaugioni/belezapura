@@ -55,4 +55,16 @@ public class EquipamentoTest {
     public void testToString() {
         assertNotNull(equipamento().toString());
     }
+
+    @Test
+    @DisplayName("Testando hashCode")
+    public void testHashCode() {
+        assertNotNull(equipamento().hashCode());
+    }
+
+    @Test
+    @DisplayName("Testando equals")
+    public void testEquals() {
+        assertNotNull(equipamento().equals(equipamento()));
+    }
 }

@@ -20,6 +20,8 @@ public class GenericDaoTest {
         EntityManager mock = mock(EntityManager.class);
         when(mock.find(any(), any())).thenReturn(equipamento("Equipamento"));
         when(mock.merge(any())).thenReturn(equipamento("Equipamento update"));
+        when(mock.getReference(any(), any())).thenReturn(equipamento("Equipamento"));
+        mock.remove(any());
         return mock;
     }
 
@@ -50,5 +52,11 @@ public class GenericDaoTest {
         equipamento.setDescricao("Equipamento update");
         Equipamento equipamentoUpdate = genericDao.update(equipamento);
         assertEquals(equipamentoUpdate.getDescricao(), "Equipamento update");
+    }
+
+    @Test
+    @DisplayName("Testando delete")
+    public void testDelete() {
+        genericDao.delete(1L);
     }
 }

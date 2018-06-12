@@ -38,4 +38,16 @@ public class ProtocoloTest {
     public void testToString() {
         assertNotNull(protocolo().toString());
     }
+
+    @Test
+    @DisplayName("Testando hashCode")
+    public void testHashCode() {
+        assertNotNull(protocolo().hashCode());
+    }
+
+    @Test
+    @DisplayName("Testando equals")
+    public void testEquals() {
+        assertNotNull(protocolo().equals(protocolo()));
+    }
 }

@@ -61,4 +61,16 @@ public class PacoteTest {
     public void testToString() {
         assertNotNull(pacote().toString());
     }
+
+    @Test
+    @DisplayName("Testando hashCode")
+    public void testHashCode() {
+        assertNotNull(pacote().hashCode());
+    }
+
+    @Test
+    @DisplayName("Testando equals")
+    public void testEquals() {
+        assertNotNull(pacote().equals(pacote()));
+    }
 }
