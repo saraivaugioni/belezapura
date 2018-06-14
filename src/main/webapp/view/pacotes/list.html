@@ -38,8 +38,8 @@
                 <td>{{item.descricao}}</td>
                 <td>{{item.especificacao}}</td>
                 <td>{{item.secoes}}</td>
-                <td>{{item.valorSecao}}</td>
-                <td>{{item.valorTotal}}</td>
+                <td>{{item.valorSecao | number: 2}}</td>
+                <td>{{item.valorTotal | number: 2}}</td>
                 <td class="text-right">
                     <button ui-sref="pacotesEditar({id: item.id})" class="btn btn-sm btn-link">
                         <i class="far fa-edit"></i>

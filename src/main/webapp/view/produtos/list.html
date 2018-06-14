@@ -36,8 +36,8 @@
                 <td>{{item.id}}</td>
                 <td>{{item.codigo}}</td>
                 <td>{{item.descricao}}</td>
-                <td>{{item.preco}}</td>
-                <td>{{item.quantidade}}</td>
+                <td>{{item.preco | number: 2}}</td>
+                <td>{{item.quantidade | number: 2}}</td>
                 <td class="text-right">
                     <button ui-sref="produtosEditar({id: item.id})" class="btn btn-sm btn-link">
                         <i class="far fa-edit"></i>
