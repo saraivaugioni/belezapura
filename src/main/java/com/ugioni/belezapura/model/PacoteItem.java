@@ -16,23 +16,23 @@ public class PacoteItem implements Entidade {
     @GeneratedValue(generator = "pacotes_itens_seq", strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @NotNull
+    @NotNull(message = "{PacoteItem.servico.NotNull}")
     @ManyToOne
     @JoinColumn(name = "id_servico")
     private Servico servico;
 
-    @NotNull
-    @Digits(integer = 10, fraction = 5)
+    @NotNull(message = "{PacoteItem.valorUnitario.NotNull}")
+    @Digits(integer = 10, fraction = 5, message = "{PacoteItem.valorUnitario.Digits}")
     @Column(name = "vl_unitario", precision = 15, scale = 5)
     private BigDecimal valorUnitario;
 
-    @NotNull
-    @Digits(integer = 10, fraction = 5)
+    @NotNull(message = "{PacoteItem.quantidade.NotNull}")
+    @Digits(integer = 10, fraction = 5, message = "{PacoteItem.quantidade.Digits}")
     @Column(name = "quantidade", precision = 15, scale = 5)
     private BigDecimal quantidade;
 
-    @NotNull
-    @Digits(integer = 10, fraction = 5)
+    @NotNull(message = "{PacoteItem.valorTotal.NotNull}")
+    @Digits(integer = 10, fraction = 5, message = "{PacoteItem.valorTotal.Digits}")
     @Column(name = "vl_total", precision = 15, scale = 5)
     private BigDecimal valorTotal;
 

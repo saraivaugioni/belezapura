@@ -18,12 +18,12 @@ public class Pacote implements Entidade {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pacotes_seq")
     private Long id;
 
-    @NotNull
+    @NotNull(message = "{Pacote.cliente.NotNull}")
     @ManyToOne
     @JoinColumn(name = "id_cliente")
     private Cliente cliente;
 
-    @NotNull
+    @NotNull(message = "{Pacote.data.NotNull}")
     @Column(name = "data")
     @Temporal(TemporalType.TIMESTAMP)
     private Date data;
@@ -32,8 +32,8 @@ public class Pacote implements Entidade {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<PacoteItem> itens;
 
-    @NotNull
-    @Digits(integer = 10, fraction = 5)
+    @NotNull(message = "{Pacote.valorTotal.NotNull}")
+    @Digits(integer = 10, fraction = 5, message = "{Pacote.valorTotal.Digits}")
     @Column(name = "vl_total", precision = 15, scale = 5)
     private BigDecimal valorTotal;
 

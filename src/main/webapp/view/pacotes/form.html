@@ -60,12 +60,10 @@
         </tbody>
     </table>
 </div>
-
 <div class="form-row justify-content-end">
     <button type="button" ng-click="vm.salvar()" class="btn btn-primary mr-2">Salvar</button>
     <a ui-sref="Pacotes" class="btn btn-danger">Cancelar</a>
 </div>
-
 <!-- Modal de Itens -->
 <div class="modal fade" id="formItem" tabindex="-1" role="dialog" aria-labelledby="formItem" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -79,18 +77,29 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label for="servico">Serviço</label>
-                    <select ng-options="item as item.descricao for item in vm.servicos track by item.id" ng-model="vm.registroItem.servico" class="form-control"
-                        ng-change="vm.registroItem.valorUnitario = vm.registroItem.servico.preco">
+                    <select ng-class="{'is-invalid': vm.error.servico}" ng-options="item as item.descricao for item in vm.servicos track by item.id"
+                        ng-model="vm.registroItem.servico" class="form-control" ng-change="vm.registroItem.valorUnitario = vm.registroItem.servico.valor">
                     </select>
+                    <small ng-if="vm.error.servico" class="invalid-feedback">
+                        {{vm.error.servico[1]}}
+                    </small>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="quantidade">Quantidade</label>
-                        <input type="number" ng-model="vm.registroItem.quantidade" class="form-control text-right" id="quantidade">
+                        <input type="number" ng-class="{'is-invalid': vm.error.quantidade}" ng-change="vm.registroItem.quantidade * vm.registroItem.valorUnitario = vm.registroItem.valorTotal"
+                            ng-model="vm.registroItem.quantidade" class="form-control text-right" id="quantidade">
+                        <small ng-if="vm.error.servico" class="invalid-feedback">
+                            {{vm.error.quantidade[1]}}
+                        </small>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="valorUnitario">Valor Unitário</label>
-                        <input type="number" ng-model="vm.registroItem.valorUnitario" class="form-control text-right" id="valorUnitario">
+                        <input type="number" ng-class="{'is-invalid': vm.error.valorUnitario}" ng-model="vm.registroItem.valorUnitario" class="form-control text-right"
+                            id="valorUnitario">
+                        <small ng-if="vm.error.servico" class="invalid-feedback">
+                            {{vm.error.valorUnitario[1]}}
+                        </small>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="valorTotal">Valor Total</label>
