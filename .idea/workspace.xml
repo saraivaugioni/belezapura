@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/AtendimentoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PacoteItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/AtendimentoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PacoteResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/AtendimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PacoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/atendimentos/form.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/atendimentos/list.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/atendimentos/service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/atendimentos/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/atendimentos/list.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +21,7 @@
     <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_model_in_belezapura.coverage" NAME="com.ugioni.belezapura.model in belezapura Coverage Results" MODIFIED="1528161982599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ugioni.belezapura.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_in_belezapura.ic" NAME="com.ugioni.belezapura in belezapura Coverage Results" MODIFIED="1528765676922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_in_belezapura.ic" NAME="com.ugioni.belezapura in belezapura Coverage Results" MODIFIED="1529181346238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ugioni.belezapura.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/belezapura$com_ugioni_belezapura_model_in_belezapura.ic" NAME="com.ugioni.belezapura.model in belezapura Coverage Results" MODIFIED="1528580609986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -39,20 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pacote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PacoteItem.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PacoteItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PacoteItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#1138#1139#0" expanded="true" />
                 <element signature="e#1163#1164#0" expanded="true" />
@@ -75,6 +57,15 @@
                 <element signature="e#1871#1872#0" expanded="true" />
                 <element signature="e#1915#1916#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacoteItemTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteItemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/JpaCriteriaHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/AbstractCrudService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/Producers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/Producers.java" />
@@ -140,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/utils/GenericDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ClienteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/EquipamentoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProtocoloTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" />
@@ -155,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PacoteItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PacoteResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteItemTest.java" />
       </list>
     </option>
   </component>
@@ -367,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Run">
+  <component name="RunManager" selected="JUnit.com.ugioni.belezapura in belezapura">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -397,7 +388,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PacoteItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belezapura" />
       <extension name="coverage">
         <pattern>
@@ -408,7 +399,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ugioni.belezapura.model" />
-      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.ProdutoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.PacoteItemTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -420,7 +411,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ProtocoloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PacoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belezapura" />
       <extension name="coverage">
         <pattern>
@@ -431,7 +422,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ugioni.belezapura.model" />
-      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.ProtocoloTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ugioni.belezapura.model.PacoteTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -556,18 +547,18 @@
     <list>
       <item itemvalue="Maven.Run" />
       <item itemvalue="JUnit.com.ugioni.belezapura.model in belezapura" />
-      <item itemvalue="JUnit.ProtocoloTest" />
-      <item itemvalue="JUnit.ProdutoTest" />
       <item itemvalue="JUnit.GenericDaoTest" />
       <item itemvalue="JUnit.com.ugioni.belezapura in belezapura" />
+      <item itemvalue="JUnit.PacoteTest" />
+      <item itemvalue="JUnit.PacoteItemTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.ugioni.belezapura in belezapura" />
+        <item itemvalue="JUnit.PacoteItemTest" />
+        <item itemvalue="JUnit.PacoteTest" />
         <item itemvalue="JUnit.GenericDaoTest" />
         <item itemvalue="JUnit.com.ugioni.belezapura.model in belezapura" />
-        <item itemvalue="JUnit.ProdutoTest" />
-        <item itemvalue="JUnit.ProtocoloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -585,18 +576,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.09 at 19h 28m 13s.xml">
-      <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDaoTest - 2018.06.09 at 19h 33m 03s.xml">
-      <configuration name="GenericDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenericDaoTest - 2018.06.09 at 19h 33m 24s.xml">
-      <configuration name="GenericDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.09 at 19h 34m 24s.xml">
-      <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.11 at 21h 53m 38s.xml">
       <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
     </history-entry>
@@ -615,24 +594,37 @@
     <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.11 at 22h 08m 06s.xml">
       <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.16 at 17h 08m 48s.xml">
+      <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacoteTest - 2018.06.16 at 17h 24m 50s.xml">
+      <configuration name="PacoteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_ugioni_belezapura_in_belezapura - 2018.06.16 at 17h 26m 43s.xml">
+      <configuration name="com.ugioni.belezapura in belezapura" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacoteItemTest - 2018.06.16 at 17h 32m 45s.xml">
+      <configuration name="PacoteItemTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.5980392" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.25037822" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.5980392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.5980392" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.51626015" weight="0.32980332" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.42647058" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -642,9 +634,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.51626015" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -687,16 +677,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/audit.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/constraints/Size.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1007,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Servico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PacoteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1028,17 +1001,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Servico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pacote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="-357">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PacoteItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#1138#1139#0" expanded="true" />
             <element signature="e#1163#1164#0" expanded="true" />
@@ -1061,6 +1056,13 @@
             <element signature="e#1871#1872#0" expanded="true" />
             <element signature="e#1915#1916#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
