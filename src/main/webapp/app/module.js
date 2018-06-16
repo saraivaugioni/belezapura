@@ -49,17 +49,17 @@
                 controllerAs: 'vm'
             })
             .state({
-                name: 'Pacotes',
-                url: '/pacotes',
-                templateUrl: '/view/pacotes/list.html',
-                controller: 'PacoteListController',
+                name: 'Servicos',
+                url: '/servicos',
+                templateUrl: '/view/servicos/list.html',
+                controller: 'ServicoListController',
                 controllerAs: 'vm'
             })
             .state({
-                name: 'Novo Pacote',
-                url: '/pacotes/novo',
-                templateUrl: '/view/pacotes/form.html',
-                controller: 'PacoteFormController',
+                name: 'Novo Servico',
+                url: '/servicos/novo',
+                templateUrl: '/view/servicos/form.html',
+                controller: 'ServicoFormController',
                 controllerAs: 'vm'
             })
             .state({

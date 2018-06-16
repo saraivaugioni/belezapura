@@ -2,11 +2,11 @@
   'use strict'
 
   angular.module('app')
-    .controller('PacoteFormController', PacoteFormController);
+    .controller('ServicoFormController', ServicoFormController);
 
-  PacoteFormController.$inject = ['PacoteService', '$state', '$stateParams', 'DialogBuilder'];
+  ServicoFormController.$inject = ['ServicoService', '$state', '$stateParams', 'DialogBuilder'];
 
-  function PacoteFormController(PacoteService, $state, $stateParams, DialogBuilder) {
+  function ServicoFormController(ServicoService, $state, $stateParams, DialogBuilder) {
     var vm = this;
 
     vm.registro = {}
@@ -14,7 +14,7 @@
     vm.salvar = salvar;
 
     if ($stateParams.id) {
-      PacoteService.findById($stateParams.id)
+      ServicoService.findById($stateParams.id)
         .then(function (data) {
           vm.registro = data;
         });
@@ -22,7 +22,7 @@
 
     function salvar() {
       if (!vm.registro.id) {
-        PacoteService.insert(vm.registro)
+        ServicoService.insert(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro inserido com sucesso!');
             $state.go("^");
@@ -31,7 +31,7 @@
             vm.error = error.data;
           });
       } else {
-        PacoteService.update(vm.registro)
+        ServicoService.update(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro alterado com sucesso!');
             $state.go("^");

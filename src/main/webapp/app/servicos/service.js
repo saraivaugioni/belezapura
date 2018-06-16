@@ -2,14 +2,14 @@
   'use strict'
 
   angular.module('app')
-    .factory('PacoteService', PacoteService);
+    .factory('ServicoService', ServicoService);
 
-  PacoteService.$inject = ['$http'];
+  ServicoService.$inject = ['$http'];
 
-  function PacoteService($http) {
+  function ServicoService($http) {
 
     function findAll(filtro, page) {
-      return $http.get('/api/pacotes?page=' + page.number
+      return $http.get('/api/servicos?page=' + page.number
         + '&size=' + page.size + '&filterField=descricao&filterValue=' + filtro)
         .then(function (response) {
           return {
@@ -35,28 +35,28 @@
     }
 
     function findById(id) {
-      return $http.get('/api/pacotes/' + id)
+      return $http.get('/api/servicos/' + id)
         .then(function (response) {
           return response.data;
         });
     }
 
     function insert(registro) {
-      return $http.post('/api/pacotes', registro)
+      return $http.post('/api/servicos', registro)
         .then(function (response) {
           return response.data;
         });
     }
 
     function update(registro) {
-      return $http.put('/api/pacotes/' + registro.id, registro)
+      return $http.put('/api/servicos/' + registro.id, registro)
         .then(function (response) {
           return response.data;
         });
     }
 
     function remove(id) {
-      return $http.delete('/api/pacotes/' + id)
+      return $http.delete('/api/servicos/' + id)
         .then(function (response) {
           return response.data;
         });

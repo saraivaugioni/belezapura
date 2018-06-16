@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2">
-    <h1 class="h2">Listagem de Pacotes</h1>
+    <h1 class="h2">Listagem de Serviços</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
         <div class="input-group">
             <input type="text" ng-model="vm.filtro" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="btnGroupAddon">
@@ -12,7 +12,7 @@
                 </button>
             </div>
         </div>
-        <a ui-sref="Novo Pacote" class="btn btn-success ml-3">
+        <a ui-sref="Novo Servico" class="btn btn-success ml-3">
             <i class="fas fa-plus-circle"></i>
             <span>Novo</span>
         </a>
@@ -25,10 +25,8 @@
             <tr>
                 <th>#</th>
                 <th>Descrição</th>
+                <th>Valor</th>
                 <th>Especificação</th>
-                <th>Seções</th>
-                <th>Valor seção</th>
-                <th>Valor total</th>
                 <th class="text-right">Opções</th>
             </tr>
         </thead>
@@ -36,12 +34,10 @@
             <tr ng-repeat="item in vm.data.registros">
                 <td>{{item.id}}</td>
                 <td>{{item.descricao}}</td>
+                <td>{{item.valor | number: 2}}</td>
                 <td>{{item.especificacao}}</td>
-                <td>{{item.secoes}}</td>
-                <td>{{item.valorSecao | number: 2}}</td>
-                <td>{{item.valorTotal | number: 2}}</td>
                 <td class="text-right">
-                    <button ui-sref="pacotesEditar({id: item.id})" class="btn btn-sm btn-link">
+                    <button ui-sref="servicosEditar({id: item.id})" class="btn btn-sm btn-link">
                         <i class="far fa-edit"></i>
                     </button>
                     <button ng-click="vm.excluir(item)" class="btn btn-sm btn-link">

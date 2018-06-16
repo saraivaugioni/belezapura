@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-    <h1 class="h2">Novo Pacote</h1>
+    <h1 class="h2">Novo Serviço</h1>
 </div>
 
 <form>
@@ -11,6 +11,15 @@
             {{vm.error.descricao[1]}}
         </small>
     </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="valor">Valor</label>
+            <input ng-class="{'is-invalid': vm.error.valor}" ng-model="vm.registro.valor" type="text" class="form-control" id="valor">
+            <small ng-if="vm.error.valor" class="invalid-feedback">
+                {{vm.error.valor[1]}}
+            </small>
+        </div>
+    </div>
     <div class="form-group ">
         <label for="especificacao">Especificação</label>
         <textarea ng-class="{'is-invalid': vm.error.especificacao}" ng-model="vm.registro.especificacao" class="form-control" id="especificacao"
@@ -19,22 +28,8 @@
             {{vm.error.especificacao[1]}}
         </small>
     </div>
-    <div class="form-row">
-        <div class="form-group col-md-2">
-            <label for="secoes">Seções</label>
-            <input ng-model="vm.registro.secoes" type="text" class="form-control" id="secoes">
-        </div>
-        <div class="form-group col-md-5">
-            <label for="valorSecao">Valor seção</label>
-            <input ng-model="vm.registro.valorSecao" type="text" class="form-control" id="valorSecao">
-        </div>
-        <div class="form-group col-md-5">
-            <label for="valorTotal">Valor total</label>
-            <input ng-model="vm.registro.valorTotal" type="text" class="form-control" id="valorTotal">
-        </div>
-    </div>
     <div class="form-row justify-content-end">
         <button ng-click="vm.salvar()" type="button" class="btn btn-primary mr-2">Salvar</button>
-        <a ui-sref="Pacotes" class="btn btn-danger">Cancelar</a>
+        <a ui-sref="Servicos" class="btn btn-danger">Cancelar</a>
     </div>
 </form>
