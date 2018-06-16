@@ -91,24 +91,24 @@
                 controllerAs: 'vm'
             })
             .state({
-                name: 'Atendimentos',
-                url: '/atendimentos',
-                templateUrl: '/view/atendimentos/list.html',
-                controller: 'AtendimentoListController',
+                name: 'Pacotes',
+                url: '/pacotes',
+                templateUrl: '/view/pacotes/list.html',
+                controller: 'PacoteListController',
                 controllerAs: 'vm'
             })
             .state({
-                name: 'atendimentosNovo',
-                url: '/atendimentos/novo',
-                templateUrl: '/view/atendimentos/form.html',
-                controller: 'AtendimentoFormController',
+                name: 'pacotesNovo',
+                url: '/pacotes/novo',
+                templateUrl: '/view/pacotes/form.html',
+                controller: 'PacoteFormController',
                 controllerAs: 'vm'
             })
             .state({
-                name: 'atendimentosEditar',
-                url: '/atendimentos/{id}',
-                templateUrl: '/view/atendimentos/form.html',
-                controller: 'AtendimentoFormController',
+                name: 'pacotesEditar',
+                url: '/pacotes/{id}',
+                templateUrl: '/view/pacotes/form.html',
+                controller: 'PacoteFormController',
                 controllerAs: 'vm'
             });
     }

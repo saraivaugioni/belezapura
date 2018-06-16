@@ -1,6 +1,6 @@
 package com.ugioni.belezapura.services;
 
-import com.ugioni.belezapura.model.Atendimento;
+import com.ugioni.belezapura.model.Pacote;
 import com.ugioni.belezapura.utils.GenericDao;
 
 import javax.ejb.Stateless;
@@ -10,13 +10,13 @@ import javax.inject.Inject;
 
 @Stateless
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
-public class AtendimentoService extends AbstractCrudService<Atendimento> {
+public class PacoteService extends AbstractCrudService<Pacote> {
 
     @Inject
-    private GenericDao<Atendimento> dao;
+    private GenericDao<Pacote> dao;
 
     @Override
-    protected GenericDao<Atendimento> getDao() {
+    protected GenericDao<Pacote> getDao() {
         return dao;
     }
 }

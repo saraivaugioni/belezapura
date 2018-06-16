@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "atendimentos")
-@SequenceGenerator(name = "atendimentos_seq", sequenceName = "atendimentos_seq", allocationSize = 1)
-public class Atendimento implements Entidade {
+@Table(name = "pacotes")
+@SequenceGenerator(name = "pacotes_seq", sequenceName = "pacotes_seq", allocationSize = 1)
+public class Pacote implements Entidade {
 
     @Id
-    @Column(name = "id_atendimento")
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "atendimentos_seq")
+    @Column(name = "id_pacote")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pacotes_seq")
     private Long id;
 
     @NotNull
@@ -28,9 +28,9 @@ public class Atendimento implements Entidade {
     @Temporal(TemporalType.TIMESTAMP)
     private Date data;
 
-    @JoinColumn(name = "id_atendimento")
+    @JoinColumn(name = "id_pacote")
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
-    private List<AtendimentoItem> itens;
+    private List<PacoteItem> itens;
 
     @NotNull
     @Digits(integer = 10, fraction = 5)
@@ -62,11 +62,11 @@ public class Atendimento implements Entidade {
         this.data = data;
     }
 
-    public List<AtendimentoItem> getItens() {
+    public List<PacoteItem> getItens() {
         return itens;
     }
 
-    public void setItens(List<AtendimentoItem> itens) {
+    public void setItens(List<PacoteItem> itens) {
         this.itens = itens;
     }
 
@@ -81,8 +81,8 @@ public class Atendimento implements Entidade {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Atendimento)) return false;
-        Atendimento that = (Atendimento) o;
+        if (!(o instanceof Pacote)) return false;
+        Pacote that = (Pacote) o;
         return Objects.equals(getId(), that.getId()) &&
                 Objects.equals(getCliente(), that.getCliente()) &&
                 Objects.equals(getData(), that.getData()) &&
@@ -97,7 +97,7 @@ public class Atendimento implements Entidade {
 
     @Override
     public String toString() {
-        return "Atendimento{" +
+        return "Pacote{" +
                 "id=" + id +
                 ", cliente=" + cliente +
                 ", data=" + data +

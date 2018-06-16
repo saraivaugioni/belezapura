@@ -2,18 +2,18 @@
     'use strict'
 
     angular.module('app')
-        .controller('AtendimentoFormController', AtendimentoFormController);
+        .controller('PacoteFormController', PacoteFormController);
 
-    AtendimentoFormController.$inject = [
-        'AtendimentoService',
+    PacoteFormController.$inject = [
+        'PacoteService',
         '$state',
         '$stateParams',
         'DialogBuilder',
         'ClienteService',
-        'ProdutoService'
+        'ServicoService'
     ];
 
-    function AtendimentoFormController(AtendimentoService, $state, $stateParams, DialogBuilder, ClienteService, ProdutoService) {
+    function PacoteFormController(PacoteService, $state, $stateParams, DialogBuilder, ClienteService, ServicoService) {
 
         var vm = this;
         vm.registro = {
@@ -22,10 +22,10 @@
             itens: []
         };
         vm.error = {};
-        vm.titulo = 'Novo Atendimento';
+        vm.titulo = 'Novo Pacote';
 
         vm.clientes = [];
-        vm.produtos = [];
+        vm.servicos = [];
 
         vm.salvar = salvar;
 
@@ -42,35 +42,35 @@
                 vm.clientes = data;
             });
 
-        ProdutoService.findAllOver()
+        ServicoService.findAllOver()
             .then(function (data) {
-                vm.produtos = data;
+                vm.servicos = data;
             });
 
         if ($stateParams.id) {
-            AtendimentoService.findById($stateParams.id)
+            PacoteService.findById($stateParams.id)
                 .then(function (data) {
                     vm.registro = data;
                     vm.registro.itens = vm.registro.itens || [];
-                    vm.titulo = 'Editando Atendimento';
+                    vm.titulo = 'Editando Pacote';
                 });
         }
 
         function salvar() {
             if (!vm.registro.id) {
-                AtendimentoService.insert(vm.registro)
+                PacoteService.insert(vm.registro)
                     .then(function (dado) {
                         DialogBuilder.message('Registro incluído com sucesso!');
-                        $state.go('atendimentosList');
+                        $state.go('pacotesList');
                     })
                     .catch(function (error) {
                         vm.error = error.data;
                     });
             } else {
-                AtendimentoService.update(vm.registro)
+                PacoteService.update(vm.registro)
                     .then(function (dado) {
                         DialogBuilder.message('Registro alterado com sucesso!');
-                        $state.go('atendimentosList');
+                        $state.go('pacotesList');
                     })
                     .catch(function (error) {
                         vm.error = error.data;
@@ -101,7 +101,7 @@
             vm.itemOriginal = null;
             vm.registroItem = {};
 
-            // calcula o total do atendimento
+            // calcula o total do pacote
             vm.registro.valorTotal = 0;
             vm.registro.itens.forEach(function (item) {
                 vm.registro.valorTotal += item.valorTotal;
@@ -112,12 +112,11 @@
             var index = vm.registro.itens.indexOf(selecionado);
             vm.registro.itens.splice(index, 1);
 
-            // calcula o total do atendimento
+            // calcula o total do pacote
             vm.registro.valorTotal = 0;
             vm.registro.itens.forEach(function (item) {
                 vm.registro.valorTotal += item.valorTotal;
             });
         }
-
     }
 })();

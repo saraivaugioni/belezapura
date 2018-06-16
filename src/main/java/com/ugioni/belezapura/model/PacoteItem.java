@@ -7,19 +7,19 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
-@Table(name = "atendimentos_itens")
-@SequenceGenerator(name = "atendimentos_itens_seq", sequenceName = "atendimentos_itens_seq", allocationSize = 1)
-public class AtendimentoItem implements Entidade {
+@Table(name = "pacotes_itens")
+@SequenceGenerator(name = "pacotes_itens_seq", sequenceName = "pacotes_itens_seq", allocationSize = 1)
+public class PacoteItem implements Entidade {
 
     @Id
-    @Column(name = "id_atendimento_item")
-    @GeneratedValue(generator = "atendimentos_itens_seq", strategy = GenerationType.SEQUENCE)
+    @Column(name = "id_pacote_item")
+    @GeneratedValue(generator = "pacotes_itens_seq", strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @NotNull
     @ManyToOne
-    @JoinColumn(name = "id_produto")
-    private Produto produto;
+    @JoinColumn(name = "id_servico")
+    private Servico servico;
 
     @NotNull
     @Digits(integer = 10, fraction = 5)
@@ -45,12 +45,12 @@ public class AtendimentoItem implements Entidade {
         this.id = id;
     }
 
-    public Produto getProduto() {
-        return produto;
+    public Servico getServico() {
+        return servico;
     }
 
-    public void setProduto(Produto produto) {
-        this.produto = produto;
+    public void setServico(Servico servico) {
+        this.servico = servico;
     }
 
     public BigDecimal getValorUnitario() {
@@ -80,10 +80,10 @@ public class AtendimentoItem implements Entidade {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof AtendimentoItem)) return false;
-        AtendimentoItem that = (AtendimentoItem) o;
+        if (!(o instanceof PacoteItem)) return false;
+        PacoteItem that = (PacoteItem) o;
         return Objects.equals(getId(), that.getId()) &&
-                Objects.equals(getProduto(), that.getProduto()) &&
+                Objects.equals(getServico(), that.getServico()) &&
                 Objects.equals(getValorUnitario(), that.getValorUnitario()) &&
                 Objects.equals(getQuantidade(), that.getQuantidade()) &&
                 Objects.equals(getValorTotal(), that.getValorTotal());
@@ -91,14 +91,14 @@ public class AtendimentoItem implements Entidade {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getProduto(), getValorUnitario(), getQuantidade(), getValorTotal());
+        return Objects.hash(getId(), getServico(), getValorUnitario(), getQuantidade(), getValorTotal());
     }
 
     @Override
     public String toString() {
-        return "AtendimentoItem{" +
+        return "PacoteItem{" +
                 "id=" + id +
-                ", produto=" + produto +
+                ", servico=" + servico +
                 ", valorUnitario=" + valorUnitario +
                 ", quantidade=" + quantidade +
                 ", valorTotal=" + valorTotal +

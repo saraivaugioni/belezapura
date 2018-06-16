@@ -2,14 +2,14 @@
     'use strict'
 
     angular.module('app')
-        .service('AtendimentoService', AtendimentoService);
+        .service('PacoteService', PacoteService);
 
-    AtendimentoService.$inject = ['$http'];
+    PacoteService.$inject = ['$http'];
 
-    function AtendimentoService($http) {
+    function PacoteService($http) {
 
         function findAll(filtro, page) {
-            return $http.get('/api/atendimentos?page=' + page.number +
+            return $http.get('/api/pacotes?page=' + page.number +
                 '&size=' + page.size + '&filterField=cliente.nome&filterValue=' + filtro)
                 .then(function (response) {
                     return {
@@ -36,28 +36,28 @@
         }
 
         function findById(id) {
-            return $http.get('/api/atendimentos/' + id)
+            return $http.get('/api/pacotes/' + id)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function insert(registro) {
-            return $http.post('/api/atendimentos', registro)
+            return $http.post('/api/pacotes', registro)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function update(registro) {
-            return $http.put('/api/atendimentos/' + registro.id, registro)
+            return $http.put('/api/pacotes/' + registro.id, registro)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function remove(id) {
-            return $http.delete('/api/atendimentos/' + id)
+            return $http.delete('/api/pacotes/' + id)
                 .then(function (response) {
                     return response.data;
                 });
