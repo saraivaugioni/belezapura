@@ -58,3 +58,11 @@ r
 Bsrc/main/java/com/ugioni/belezapura/rest/AbstractCrudResource.java,5\f\5f7d9230847eedfc226fa1064df1931487498833
 u
 Esrc/main/java/com/ugioni/belezapura/services/AbstractCrudService.java,4\5\453cbfb26438431aedfeb67982c00370f4084494
+{
+Ksrc/main/java/com/ugioni/belezapura/rest/resources/AtendimentoResource.java,7\c\7cf95b89311b8af5d7f005fc7736a4e5ed464089
+t
+Dsrc/main/java/com/ugioni/belezapura/services/AtendimentoService.java,a\b\ab106b2a18bfdf4913f9cf1d19595a958c5f8266
+n
+>src/main/java/com/ugioni/belezapura/model/AtendimentoItem.java,3\d\3d03acf3b99022cb69b37795b245b8d1a4780003
+j
+:src/main/java/com/ugioni/belezapura/model/Atendimento.java,5\d\5dd857895971eae63fee1caed31b9a247e720ca2

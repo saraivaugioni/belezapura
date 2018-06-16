@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/pacotes/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/pacotes/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/produtos/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/produtos/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Atendimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/AtendimentoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PedidoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/AtendimentoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/AtendimentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,26 +35,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Produto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Equipamento.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +49,8 @@
     <findStrings>
       <find>pacote</find>
       <find>produto</find>
+      <find>pedido</find>
+      <find>pedidos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ProdutoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ProtocoloResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/resources/ClienteResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Entidade.java" />
@@ -90,8 +75,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/ConstraintViolationMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/utils/JpaCriteriaHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PedidoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PedidoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Cliente.java" />
@@ -122,6 +105,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/PacoteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProdutoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ugioni/belezapura/model/ProtocoloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/AtendimentoResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/AtendimentoItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Atendimento.java" />
       </list>
     </option>
   </component>
@@ -153,7 +141,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -167,6 +155,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,9 +280,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,7 +558,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,12 +567,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.5980392" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.25037822" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.5980392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.5980392" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29954615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.42647058" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -599,13 +587,12 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.5980392" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32843137" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
@@ -613,7 +600,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.5980392" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -699,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/EquipamentoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -767,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/PedidoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ValidationMessages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -827,6 +800,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/PedidoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/ProdutoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -947,13 +920,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/ProdutoResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/PedidoResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -983,8 +949,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Equipamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-204">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/services/AtendimentoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/rest/resources/AtendimentoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/AtendimentoItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ugioni/belezapura/model/Atendimento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

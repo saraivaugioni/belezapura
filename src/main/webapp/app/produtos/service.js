@@ -8,6 +8,13 @@
 
   function ProdutoService($http) {
 
+    function findAllOver() {
+      return $http.get('/api/produtos/all?order=descricao')
+        .then(function (response) {
+          return response.data;
+        });
+    }
+
     function findAll(filtro, page) {
       return $http.get('/api/produtos?page=' + page.number
         + '&size=' + page.size + '&filterField=descricao&filterValue=' + filtro)
@@ -64,6 +71,7 @@
 
     return {
       findAll: findAll,
+      findAllOver: findAllOver,
       findById: findById,
       insert: insert,
       update: update,

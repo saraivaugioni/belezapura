@@ -90,5 +90,26 @@
                 controller: 'ProtocoloFormController',
                 controllerAs: 'vm'
             })
+            .state({
+                name: 'Atendimentos',
+                url: '/atendimentos',
+                templateUrl: '/view/atendimentos/list.html',
+                controller: 'AtendimentoListController',
+                controllerAs: 'vm'
+            })
+            .state({
+                name: 'atendimentosNovo',
+                url: '/atendimentos/novo',
+                templateUrl: '/view/atendimentos/form.html',
+                controller: 'AtendimentoFormController',
+                controllerAs: 'vm'
+            })
+            .state({
+                name: 'atendimentosEditar',
+                url: '/atendimentos/{id}',
+                templateUrl: '/view/atendimentos/form.html',
+                controller: 'AtendimentoFormController',
+                controllerAs: 'vm'
+            });
     }
 })();
