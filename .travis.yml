@@ -17,4 +17,7 @@ cache:
 
 notifications:
   email:
-    - leandro_ugioni@hotmail.com
+    recipients:
+      - leandro_ugioni@hotmail.com
+    on_success: always
+    on_failure: always
