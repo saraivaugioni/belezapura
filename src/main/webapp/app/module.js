@@ -49,6 +49,13 @@
                 controllerAs: 'vm'
             })
             .state({
+                name: 'equipamentosEditar',
+                url: '/equipamentos/{id}',
+                templateUrl: '/view/equipamentos/form.html',
+                controller: 'EquipamentoFormController',
+                controllerAs: 'vm'
+            })
+            .state({
                 name: 'Servicos',
                 url: '/servicos',
                 templateUrl: '/view/servicos/list.html',
@@ -58,6 +65,13 @@
             .state({
                 name: 'Novo Servico',
                 url: '/servicos/novo',
+                templateUrl: '/view/servicos/form.html',
+                controller: 'ServicoFormController',
+                controllerAs: 'vm'
+            })
+            .state({
+                name: 'servicosEditar',
+                url: '/servicos/{id}',
                 templateUrl: '/view/servicos/form.html',
                 controller: 'ServicoFormController',
                 controllerAs: 'vm'
@@ -77,6 +91,13 @@
                 controllerAs: 'vm'
             })
             .state({
+                name: 'produtosEditar',
+                url: '/produtos/{id}',
+                templateUrl: '/view/produtos/form.html',
+                controller: 'ProdutoFormController',
+                controllerAs: 'vm'
+            })
+            .state({
                 name: 'Protocolos',
                 url: '/protocolos',
                 templateUrl: '/view/protocolos/list.html',
@@ -86,6 +107,13 @@
             .state({
                 name: 'Novo Protocolo',
                 url: '/protocolos/novo',
+                templateUrl: '/view/protocolos/form.html',
+                controller: 'ProtocoloFormController',
+                controllerAs: 'vm'
+            })
+            .state({
+                name: 'protocolosEditar',
+                url: '/protocolos/{id}',
                 templateUrl: '/view/protocolos/form.html',
                 controller: 'ProtocoloFormController',
                 controllerAs: 'vm'
