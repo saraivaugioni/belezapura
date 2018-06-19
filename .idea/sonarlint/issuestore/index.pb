@@ -78,3 +78,5 @@ f
 0src/main/resources/ValidationMessages.properties,9\d\9dff479cf27b73bc29f4c927786be003ec65ecbc
 i
 9src/main/java/com/ugioni/belezapura/model/PacoteItem.java,8\9\8933d4aa4b6f865943a1e8961d9d0193253216de
+q
+Asrc/main/java/com/ugioni/belezapura/utils/SqlHelperException.java,6\c\6c89d2c1f8a873f848e3ed8abd48bb49596e31de

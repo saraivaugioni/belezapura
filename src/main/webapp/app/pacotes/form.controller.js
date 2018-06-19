@@ -36,6 +36,7 @@
         vm.editarItem = editarItem;
         vm.salvarItem = salvarItem;
         vm.novoItem = novoItem;
+        vm.calcularItem = calcularItem;
 
         ClienteService.findAllOver()
             .then(function (data) {
@@ -117,6 +118,10 @@
             vm.registro.itens.forEach(function (item) {
                 vm.registro.valorTotal += item.valorTotal;
             });
+        }
+
+        function calcularItem() {
+            vm.registroItem.valorTotal = vm.registroItem.quantidade * vm.registroItem.valorUnitario;
         }
     }
 })();

@@ -37,7 +37,7 @@
                 <td>{{item.descricao}}</td>
                 <td>{{item.especificacao}}</td>
                 <td>{{item.preco | number: 2}}</td>
-                <td>{{item.dataAquisicao | date : 'dd/MM/yyyy HH:mm'}}</td>
+                <td>{{item.dataAquisicao | date : 'dd/MM/yyyy'}}</td>
                 <td class="text-right">
                     <button ui-sref="equipamentosEditar({id: item.id})" class="btn btn-sm btn-link">
                         <i class="far fa-edit"></i>

@@ -87,16 +87,16 @@
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="quantidade">Quantidade</label>
-                        <input type="number" ng-class="{'is-invalid': vm.error.quantidade}" ng-change="vm.registroItem.quantidade * vm.registroItem.valorUnitario = vm.registroItem.valorTotal"
-                            ng-model="vm.registroItem.quantidade" class="form-control text-right" id="quantidade">
+                        <input type="number" ng-class="{'is-invalid': vm.error.quantidade}" ng-change="vm.calcularItem()" ng-model="vm.registroItem.quantidade"
+                            class="form-control text-right" id="quantidade">
                         <small ng-if="vm.error.servico" class="invalid-feedback">
                             {{vm.error.quantidade[1]}}
                         </small>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="valorUnitario">Valor Unitário</label>
-                        <input type="number" ng-class="{'is-invalid': vm.error.valorUnitario}" ng-model="vm.registroItem.valorUnitario" class="form-control text-right"
-                            id="valorUnitario">
+                        <input type="number" ng-class="{'is-invalid': vm.error.valorUnitario}" ng-change="vm.calcularItem()" ng-model="vm.registroItem.valorUnitario"
+                            class="form-control text-right" id="valorUnitario">
                         <small ng-if="vm.error.servico" class="invalid-feedback">
                             {{vm.error.valorUnitario[1]}}
                         </small>
