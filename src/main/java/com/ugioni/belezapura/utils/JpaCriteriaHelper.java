@@ -263,7 +263,7 @@ public class JpaCriteriaHelper<T extends Entidade> {
      */
     public JpaCriteriaHelper<T> asc() {
         if (!orders.isEmpty()) {
-            throw new RuntimeException("Nenhum cláusula ORDER BY definida");
+            throw new SqlHelperException("Nenhum cláusula ORDER BY definida");
         }
         orders.get(orders.size() - 1).order = OrderDirection.ASC;
         return this;
@@ -276,7 +276,7 @@ public class JpaCriteriaHelper<T extends Entidade> {
      */
     public JpaCriteriaHelper<T> desc() {
         if (orders.isEmpty()) {
-            throw new RuntimeException("Nenhum cláusula ORDER BY definida");
+            throw new SqlHelperException("Nenhum cláusula ORDER BY definida");
         }
         orders.get(orders.size() - 1).order = OrderDirection.DESC;
         return this;
@@ -332,11 +332,13 @@ public class JpaCriteriaHelper<T extends Entidade> {
     }
 
     private void listFetch(Root<T> root) {
-        listFetches.stream().map(listFetch -> root.getModel().getList(listFetch.attribute, listFetch.clazz)).forEachOrdered(listAttribute -> root.fetch(listAttribute));
+        listFetches.stream().map(listFetch -> root.getModel().getList(listFetch.attribute, listFetch.clazz)).forEachOrdered(listAttribute ->
+                root.fetch(listAttribute)
+        );
     }
 
     private void directFetch(Root<T> root) {
-        directFetches.forEach(fetch -> root.fetch(fetch));
+        directFetches.forEach(root::fetch);
     }
 
     /**
@@ -431,16 +433,16 @@ public class JpaCriteriaHelper<T extends Entidade> {
     private void addTowhere(List<String> fieldNames, ComparatorOperator comparator, Object valueIni, Object valueEnd, LogicalOperator logicalOperator) {
         if ((comparator.equals(ComparatorOperator.GREATER_THAN) || comparator.equals(ComparatorOperator.LESS_THAN))
                 && !(valueIni instanceof Comparable)) {
-            throw new RuntimeException("Para os tipos de operador "
+            throw new SqlHelperException("Para os tipos de operador "
                     + ComparatorOperator.GREATER_THAN + " e " + ComparatorOperator.LESS_THAN
                     + " é necessário que o objeto de valor implemente " + Comparable.class.getName() + ".");
         }
         if (comparator.equals(ComparatorOperator.IN) && !(valueIni instanceof Collection)) {
-            throw new RuntimeException("Para o tipo de operador " + ComparatorOperator.IN
+            throw new SqlHelperException("Para o tipo de operador " + ComparatorOperator.IN
                     + " é necessário que o objeto de valor implemente " + Collection.class.getName() + ".");
         }
         if (valueEnd != null && !comparator.equals(ComparatorOperator.BETWEEN)) {
-            throw new RuntimeException("Quando informados dois valores, é obrigatório o uso de " + ComparatorOperator.BETWEEN);
+            throw new SqlHelperException("Quando informados dois valores, é obrigatório o uso de " + ComparatorOperator.BETWEEN);
         }
         if (logicalOperator == null) {
             logicalOperator = LogicalOperator.AND;
@@ -459,11 +461,7 @@ public class JpaCriteriaHelper<T extends Entidade> {
             Path path = getPath(whereEntry.fieldNames, root);
             switch (whereEntry.comparatorOperator) {
                 case EQUAL:
-                    if (whereEntry.valueIni == null) {
-                        predicate = criteriaBuilder.isNull(path);
-                    } else {
-                        predicate = criteriaBuilder.equal(path, whereEntry.valueIni);
-                    }
+                    predicate = whereEntry.valueIni == null ? criteriaBuilder.isNull(path) : criteriaBuilder.equal(path, whereEntry.valueIni);
                     break;
                 case NOT_EQUAL:
                     if (whereEntry.valueIni == null) {
@@ -491,29 +489,34 @@ public class JpaCriteriaHelper<T extends Entidade> {
                     predicate = criteriaBuilder.between(path, (Comparable) whereEntry.valueIni, (Comparable) whereEntry.valueEnd);
                     break;
                 default:
-                    throw new RuntimeException("Tipo de operador de comparação não conhecido: " + whereEntry.comparatorOperator);
+                    throw new SqlHelperException("Tipo de operador de comparação não conhecido: " + whereEntry.comparatorOperator);
             }
             if (predMaster == null) {
                 predMaster = predicate;
             } else {
                 // --- OPERADOR LÓGICO ---
-                if (whereEntry.logicalOperator != null) {
-                    switch (whereEntry.logicalOperator) {
-                        case AND:
-                            predMaster = criteriaBuilder.and(predMaster, predicate);
-                            break;
-                        case OR:
-                            predMaster = criteriaBuilder.or(predMaster, predicate);
-                            break;
-                        default:
-                            throw new RuntimeException("Tipo de operador lógico não conhecido: " + whereEntry.comparatorOperator);
-                    }
-                }
+                getOperadorLogico(whereEntry, predicate);
             }
-
         }
         predicates.add(predMaster);
         return predicates.toArray(new Predicate[]{});
+    }
+
+    private Predicate getOperadorLogico(WhereEntry whereEntry, Predicate predicate) {
+        Predicate predMaster = null;
+        if (whereEntry.logicalOperator != null) {
+            switch (whereEntry.logicalOperator) {
+                case AND:
+                    predMaster = criteriaBuilder.and(predMaster, predicate);
+                    break;
+                case OR:
+                    predMaster = criteriaBuilder.or(predMaster, predicate);
+                    break;
+                default:
+                    throw new SqlHelperException("Tipo de operador lógico não conhecido: " + whereEntry.comparatorOperator);
+            }
+        }
+        return predMaster;
     }
 
     private Path<?> getPath(List<String> fieldNames, Root<T> root) {
@@ -540,7 +543,6 @@ public class JpaCriteriaHelper<T extends Entidade> {
 
     public <E> JpaCriteriaHelper<T> fetch(String fetch, Class<E> clazz) {
         this.listFetches.add(new ListFetch<>(fetch, clazz));
-
         return this;
     }
 
