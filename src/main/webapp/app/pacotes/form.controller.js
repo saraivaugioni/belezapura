@@ -62,7 +62,7 @@
                 PacoteService.insert(vm.registro)
                     .then(function (dado) {
                         DialogBuilder.message('Registro incluído com sucesso!');
-                        $state.go('pacotesList');
+                        $state.go('Pacotes');
                     })
                     .catch(function (error) {
                         vm.error = error.data;
@@ -71,7 +71,7 @@
                 PacoteService.update(vm.registro)
                     .then(function (dado) {
                         DialogBuilder.message('Registro alterado com sucesso!');
-                        $state.go('pacotesList');
+                        $state.go('Pacotes');
                     })
                     .catch(function (error) {
                         vm.error = error.data;

@@ -14,7 +14,7 @@
     <div class="form-row">
         <div class="form-group col-md-3">
             <label for="valor">Valor</label>
-            <input ng-class="{'is-invalid': vm.error.valor}" ng-model="vm.registro.valor" type="text" class="form-control" id="valor">
+            <input ng-class="{'is-invalid': vm.error.valor}" ng-model="vm.registro.valor" type="number" class="form-control" id="valor">
             <small ng-if="vm.error.valor" class="invalid-feedback">
                 {{vm.error.valor[1]}}
             </small>

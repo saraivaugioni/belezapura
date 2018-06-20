@@ -25,7 +25,7 @@
         ProdutoService.insert(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro inserido com sucesso!');
-            $state.go("^");
+            $state.go("Produtos");
           })
           .catch(function (error) {
             vm.error = error.data;
@@ -34,7 +34,7 @@
         ProdutoService.update(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro alterado com sucesso!');
-            $state.go("^");
+            $state.go("Produtos");
           })
           .catch(function (error) {
             vm.error = error.data;

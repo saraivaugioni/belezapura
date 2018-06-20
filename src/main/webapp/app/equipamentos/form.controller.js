@@ -25,7 +25,7 @@
         EquipamentoService.insert(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro inserido com sucesso!');
-            $state.go("^");
+            $state.go("Equipamentos");
           })
           .catch(function (error) {
             vm.error = error.data;
@@ -34,7 +34,7 @@
         EquipamentoService.update(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro alterado com sucesso!');
-            $state.go("^");
+            $state.go("Equipamentos");
           })
           .catch(function (error) {
             vm.error = error.data;

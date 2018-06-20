@@ -25,7 +25,7 @@
         ServicoService.insert(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro inserido com sucesso!');
-            $state.go("^");
+            $state.go("Servicos");
           })
           .catch(function (error) {
             vm.error = error.data;
@@ -34,7 +34,7 @@
         ServicoService.update(vm.registro)
           .then(function (dado) {
             DialogBuilder.message('Registro alterado com sucesso!');
-            $state.go("^");
+            $state.go("Servicos");
           })
           .catch(function (error) {
             vm.error = error.data;
