@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="" />
+    <list default="true" id="ab774c22-13f5-4dd3-b80a-ebcd4e4aac28" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/clientes/form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/clientes/form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/equipamentos/form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/produtos/form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/produtos/form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/protocolos/form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/protocolos/form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/servicos/form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/servicos/form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/clientes/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/clientes/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/equipamentos/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/pacotes/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/pacotes/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/produtos/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/produtos/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/protocolos/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/protocolos/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/servicos/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/servicos/form.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -572,10 +584,10 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.5980392" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50680786" side_tool="true" weight="0.65849674" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.25642964" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.65849674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.65849674" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />

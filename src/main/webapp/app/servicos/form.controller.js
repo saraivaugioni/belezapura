@@ -11,12 +11,14 @@
 
     vm.registro = {}
     vm.error = {};
+    vm.titulo = 'Novo Serviço';
     vm.salvar = salvar;
 
     if ($stateParams.id) {
       ServicoService.findById($stateParams.id)
         .then(function (data) {
           vm.registro = data;
+          vm.titulo = 'Editando Serviço';
         });
     }
 

@@ -11,12 +11,14 @@
 
     vm.registro = {}
     vm.error = {};
+    vm.titulo = 'Novo Produto';
     vm.salvar = salvar;
 
     if ($stateParams.id) {
       ProdutoService.findById($stateParams.id)
         .then(function (data) {
           vm.registro = data;
+          vm.titulo = 'Editando Produto';
         });
     }
 

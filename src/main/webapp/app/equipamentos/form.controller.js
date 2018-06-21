@@ -11,12 +11,14 @@
 
     vm.registro = {}
     vm.error = {};
+    vm.titulo = 'Novo Equipamento';
     vm.salvar = salvar;
 
     if ($stateParams.id) {
       EquipamentoService.findById($stateParams.id)
         .then(function (data) {
           vm.registro = data;
+          vm.titulo = 'Editando Equipamento';
         });
     }
 
