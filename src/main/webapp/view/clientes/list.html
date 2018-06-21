@@ -34,7 +34,7 @@
             <tr ng-repeat="item in vm.data.registros">
                 <td>{{item.id}}</td>
                 <td>{{item.nome}}</td>
-                <td>{{item.telefone}}</td>
+                <td>{{item.telefone.substring(0, 2)+' '+item.telefone.substring(2, 7)+' '+item.telefone.substring(7,11)}}</td>
                 <td>{{item.email}}</td>
                 <td class="text-right">
                     <button ui-sref="clientesEditar({id: item.id})" class="btn btn-sm btn-link">

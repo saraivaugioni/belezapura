@@ -25,11 +25,11 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="preco">Preço</label>
-            <input ng-model="vm.registro.preco" type="number" class="form-control" id="preco">
+            <input ng-model="vm.registro.preco" type="text" class="form-control" id="preco" placeholder="R$ 0,00" ui-money-mask>
         </div>
         <div class="form-group col-md-6">
             <label for="quantidade">Quantidade</label>
-            <input ng-model="vm.registro.quantidade" type="number" class="form-control" id="quantidade">
+            <input ng-model="vm.registro.quantidade" type="text" class="form-control" id="quantidade" ui-number-mask>
         </div>
     </div>
     <div class="form-row justify-content-end">

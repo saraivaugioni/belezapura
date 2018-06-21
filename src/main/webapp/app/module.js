@@ -1,5 +1,5 @@
 (function () {
-    angular.module('app', ['ui.router']);
+    angular.module('app', ['ui.router', 'ui.utils.masks']);
 
     angular.module('app').config(AppConfig);
 

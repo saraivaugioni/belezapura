@@ -37,6 +37,8 @@
     function findById(id) {
       return $http.get('/api/equipamentos/' + id)
         .then(function (response) {
+          var formatDataAquisicao = response.data.dataAquisicao;
+          response.data.dataAquisicao = formatDataAquisicao.substring(8, 10) + formatDataAquisicao.substring(5, 7) + formatDataAquisicao.substring(0, 4);
           return response.data;
         });
     }

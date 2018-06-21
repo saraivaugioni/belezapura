@@ -22,11 +22,12 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="preco">Preço</label>
-            <input ng-model="vm.registro.preco" type="number" class="form-control" id="preco">
+            <input ng-model="vm.registro.preco" type="text" class="form-control" id="preco" placeholder="R$ 0,00" ui-money-mask>
         </div>
         <div class="form-group col-md-6">
             <label for="dataAquisicao">Data de aquisição</label>
-            <input type="date" id="dataAquisicao" class="form-control" ng-model="vm.registro.dataAquisicao">
+            <input type="text" id="dataAquisicao" class="form-control" ng-model="vm.registro.dataAquisicao" placeholder="dd/mm/aaaa"
+                ui-date-mask>
         </div>
     </div>
     <div class="form-row justify-content-end">

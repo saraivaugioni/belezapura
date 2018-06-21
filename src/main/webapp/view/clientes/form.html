@@ -13,7 +13,8 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="telefone">Telefone</label>
-            <input ng-class="{'is-invalid': vm.error.telefone}" ng-model="vm.registro.telefone" type="text" class="form-control" id="telefone">
+            <input ng-class="{'is-invalid': vm.error.telefone}" ng-model="vm.registro.telefone" type="text" class="form-control" id="telefone"
+                placeholder="(00) 00000-0000" ui-br-phone-number>
             <small ng-if="vm.error.telefone" class="invalid-feedback">
                 {{vm.error.telefone[1]}}
             </small>
